@@ -1,0 +1,15 @@
+module ReceiveInput(
+	input clk, ps2c, ps2d,
+	//input [0:0] KEY,
+	input reset,
+	output [7:0] key_code
+	);
+	scan_kbcode scan_kbcode_1(
+		.clk(clk),
+		.reset(~reset), // .reset(KEY)
+		.ps2d(ps2d),
+		.ps2c(ps2c),
+		.rd_en(1'b1),
+		.key_code(key_code)
+		);
+endmodule

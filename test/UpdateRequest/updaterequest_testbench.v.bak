@@ -1,0 +1,54 @@
+module updaterequest_testbench
+#(parameter n=6)();
+reg [7:0]key_code;
+reg [n-1:0]cur_floor;
+reg clk, reset;
+reg clear_down, clear_up, clear_all_down, clear_all_up, clear_door, clear_stop;
+wire [n-1:0] up, down, req_in;
+wire close_button, open_button;
+
+updaterequest topUR(key_code, cur_floor, clk, reset, up, down, req_in, close_button, open_button);
+
+initial begin 
+	clk=0;
+	reset =1;
+	clear_down =1; 
+	clear_up =0;
+	clear_all_down =0;
+	clear_all_up =0;
+	clear_door = 0;
+	clear_stop = 0;
+	key_code =0;
+forever #5 clk = ~clk;
+end
+
+initial begin
+	#5;
+	reset =0;
+	#50;
+	cur_floor = 6'b000010;
+	key_code= 8'h16; //yeu cau ben trong tang 1
+	#50;
+	key_code = 8'h2E; //yeu cau ben trong tang 5
+	#50;
+	key_code =8'h24; // yeu cau len ben ngoai tang 3
+	#50;
+	key_code = 8'h2B;  // yeu cau xuong ben ngoai tang 4
+	#50;
+	key_code =8'h1A; /// yeu cau dong cua
+	#500;
+	clear_down =1;
+	#50;
+	clear_up =1;
+	#50;
+	clear_all_down =1;
+	#50;
+	clear_all_up =1;
+	#50;
+	clear_door = 1;
+	#50;
+	clear_stop =1;
+	#50;
+	
+	end
+endmodule 

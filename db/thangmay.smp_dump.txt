@@ -1,0 +1,26 @@
+
+State Machine - |Top|ElevatorController:EC|control_unit:CU|flag_dir
+Name flag_dir.00 flag_dir.10 flag_dir.01 
+flag_dir.00 0 0 0 
+flag_dir.01 1 0 1 
+flag_dir.10 1 1 0 
+
+State Machine - |Top|ElevatorController:EC|control_unit:CU|state
+Name state.checkdirect state.checkdelay state.checkrequestdown state.checkmovedown state.checkrequestup state.checkmoveup state.down state.up state.open state.stop state.start 
+state.start 0 0 0 0 0 0 0 0 0 0 0 
+state.stop 0 0 0 0 0 0 0 0 0 1 1 
+state.open 0 0 0 0 0 0 0 0 1 0 1 
+state.up 0 0 0 0 0 0 0 1 0 0 1 
+state.down 0 0 0 0 0 0 1 0 0 0 1 
+state.checkmoveup 0 0 0 0 0 1 0 0 0 0 1 
+state.checkrequestup 0 0 0 0 1 0 0 0 0 0 1 
+state.checkmovedown 0 0 0 1 0 0 0 0 0 0 1 
+state.checkrequestdown 0 0 1 0 0 0 0 0 0 0 1 
+state.checkdelay 0 1 0 0 0 0 0 0 0 0 1 
+state.checkdirect 1 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |Top|ElevatorController:EC|Datapath:DT|ReceiveInput:RI|scan_kbcode:scan_kbcode_1|ps2_rx:ps2_unit|state_reg
+Name state_reg.idle state_reg.load state_reg.dps 
+state_reg.idle 0 0 0 
+state_reg.dps 1 0 1 
+state_reg.load 1 1 0 

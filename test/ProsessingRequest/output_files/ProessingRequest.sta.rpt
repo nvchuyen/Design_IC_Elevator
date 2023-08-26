@@ -1,0 +1,1242 @@
+TimeQuest Timing Analyzer report for ProessingRequest
+Mon Jun 11 19:43:34 2018
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow Model Fmax Summary
+  6. Slow Model Setup Summary
+  7. Slow Model Hold Summary
+  8. Slow Model Recovery Summary
+  9. Slow Model Removal Summary
+ 10. Slow Model Minimum Pulse Width Summary
+ 11. Propagation Delay
+ 12. Minimum Propagation Delay
+ 13. Fast Model Setup Summary
+ 14. Fast Model Hold Summary
+ 15. Fast Model Recovery Summary
+ 16. Fast Model Removal Summary
+ 17. Fast Model Minimum Pulse Width Summary
+ 18. Propagation Delay
+ 19. Minimum Propagation Delay
+ 20. Multicorner Timing Analysis Summary
+ 21. Progagation Delay
+ 22. Minimum Progagation Delay
+ 23. Clock Transfers
+ 24. Report TCCS
+ 25. Report RSKM
+ 26. Unconstrained Paths
+ 27. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                                      ;
++--------------------+-------------------------------------------------------------------+
+; Quartus II Version ; Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition ;
+; Revision Name      ; ProessingRequest                                                  ;
+; Device Family      ; Cyclone II                                                        ;
+; Device Name        ; EP2C35F672C6                                                      ;
+; Timing Models      ; Final                                                             ;
+; Delay Model        ; Combined                                                          ;
+; Rise/Fall Delays   ; Unavailable                                                       ;
++--------------------+-------------------------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 4      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+---------------------------
+; Slow Model Fmax Summary ;
+---------------------------
+No paths to report.
+
+
+----------------------------
+; Slow Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Slow Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Slow Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Slow Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++-----------------------------------------------------------------+
+; Propagation Delay                                               ;
++--------------+--------------+--------+--------+--------+--------+
+; Input Port   ; Output Port  ; RR     ; RF     ; FR     ; FF     ;
++--------------+--------------+--------+--------+--------+--------+
+; close_bt     ; close_button ; 7.920  ;        ;        ; 7.920  ;
+; cur_floor[0] ; req_current  ; 12.328 ;        ;        ; 12.328 ;
+; cur_floor[0] ; req_down_cur ; 12.007 ;        ;        ; 12.007 ;
+; cur_floor[0] ; req_down_in  ; 11.825 ;        ;        ; 11.825 ;
+; cur_floor[0] ; req_down_min ; 13.072 ; 13.072 ; 13.072 ; 13.072 ;
+; cur_floor[0] ; req_down_out ; 11.134 ;        ;        ; 11.134 ;
+; cur_floor[0] ; req_up_cur   ; 11.695 ;        ;        ; 11.695 ;
+; cur_floor[0] ; req_up_in    ;        ; 11.311 ; 11.311 ;        ;
+; cur_floor[0] ; req_up_max   ; 12.493 ;        ;        ; 12.493 ;
+; cur_floor[0] ; req_up_out   ;        ; 11.375 ; 11.375 ;        ;
+; cur_floor[1] ; req_current  ; 11.834 ;        ;        ; 11.834 ;
+; cur_floor[1] ; req_down_cur ; 11.510 ;        ;        ; 11.510 ;
+; cur_floor[1] ; req_down_in  ; 11.258 ;        ;        ; 11.258 ;
+; cur_floor[1] ; req_down_min ; 12.719 ; 12.719 ; 12.719 ; 12.719 ;
+; cur_floor[1] ; req_down_out ; 10.768 ;        ;        ; 10.768 ;
+; cur_floor[1] ; req_up_cur   ; 11.201 ;        ;        ; 11.201 ;
+; cur_floor[1] ; req_up_in    ;        ; 10.533 ; 10.533 ;        ;
+; cur_floor[1] ; req_up_max   ; 11.367 ;        ;        ; 11.367 ;
+; cur_floor[1] ; req_up_out   ;        ; 11.007 ; 11.007 ;        ;
+; cur_floor[2] ; req_current  ; 11.596 ;        ;        ; 11.596 ;
+; cur_floor[2] ; req_down_cur ; 10.937 ;        ;        ; 10.937 ;
+; cur_floor[2] ; req_down_in  ; 11.267 ;        ;        ; 11.267 ;
+; cur_floor[2] ; req_down_min ; 12.685 ; 12.685 ; 12.685 ; 12.685 ;
+; cur_floor[2] ; req_down_out ; 10.694 ;        ;        ; 10.694 ;
+; cur_floor[2] ; req_up_cur   ; 10.963 ;        ;        ; 10.963 ;
+; cur_floor[2] ; req_up_in    ;        ; 10.396 ; 10.396 ;        ;
+; cur_floor[2] ; req_up_max   ; 12.022 ; 12.022 ; 12.022 ; 12.022 ;
+; cur_floor[2] ; req_up_out   ;        ; 11.336 ; 11.336 ;        ;
+; cur_floor[3] ; req_current  ; 11.660 ;        ;        ; 11.660 ;
+; cur_floor[3] ; req_down_cur ; 11.173 ;        ;        ; 11.173 ;
+; cur_floor[3] ; req_down_in  ; 11.130 ;        ;        ; 11.130 ;
+; cur_floor[3] ; req_down_min ; 12.644 ; 12.644 ; 12.644 ; 12.644 ;
+; cur_floor[3] ; req_down_out ; 10.670 ;        ;        ; 10.670 ;
+; cur_floor[3] ; req_up_cur   ; 11.027 ;        ;        ; 11.027 ;
+; cur_floor[3] ; req_up_in    ;        ; 10.355 ; 10.355 ;        ;
+; cur_floor[3] ; req_up_max   ; 11.530 ; 11.530 ; 11.530 ; 11.530 ;
+; cur_floor[3] ; req_up_out   ;        ; 10.915 ; 10.915 ;        ;
+; cur_floor[4] ; req_current  ; 11.653 ;        ;        ; 11.653 ;
+; cur_floor[4] ; req_down_cur ; 11.453 ;        ;        ; 11.453 ;
+; cur_floor[4] ; req_down_in  ; 11.284 ;        ;        ; 11.284 ;
+; cur_floor[4] ; req_down_min ; 12.260 ; 12.260 ; 12.260 ; 12.260 ;
+; cur_floor[4] ; req_down_out ; 10.621 ;        ;        ; 10.621 ;
+; cur_floor[4] ; req_up_cur   ; 11.020 ;        ;        ; 11.020 ;
+; cur_floor[4] ; req_up_in    ;        ; 10.318 ; 10.318 ;        ;
+; cur_floor[4] ; req_up_max   ; 11.861 ; 11.861 ; 11.861 ; 11.861 ;
+; cur_floor[4] ; req_up_out   ;        ; 10.867 ; 10.867 ;        ;
+; cur_floor[5] ; req_current  ; 7.842  ;        ;        ; 7.842  ;
+; cur_floor[5] ; req_down_cur ; 7.827  ;        ;        ; 7.827  ;
+; cur_floor[5] ; req_down_in  ; 6.829  ;        ;        ; 6.829  ;
+; cur_floor[5] ; req_down_min ; 7.940  ; 7.938  ; 7.938  ; 7.940  ;
+; cur_floor[5] ; req_down_out ; 6.660  ;        ;        ; 6.660  ;
+; cur_floor[5] ; req_up_cur   ; 7.087  ;        ;        ; 7.087  ;
+; cur_floor[5] ; req_up_in    ;        ; 6.559  ; 6.559  ;        ;
+; cur_floor[5] ; req_up_max   ; 7.486  ;        ;        ; 7.486  ;
+; cur_floor[5] ; req_up_out   ;        ; 6.876  ; 6.876  ;        ;
+; down[0]      ; req_current  ; 10.986 ;        ;        ; 10.986 ;
+; down[0]      ; req_down_cur ; 10.971 ;        ;        ; 10.971 ;
+; down[0]      ; req_down_min ; 12.363 ; 11.448 ; 11.448 ; 12.363 ;
+; down[0]      ; req_down_out ;        ; 10.564 ; 10.564 ;        ;
+; down[0]      ; req_up_max   ; 11.909 ;        ;        ; 11.909 ;
+; down[1]      ; req_current  ; 11.120 ;        ;        ; 11.120 ;
+; down[1]      ; req_down_cur ; 11.105 ;        ;        ; 11.105 ;
+; down[1]      ; req_down_min ; 12.314 ; 11.324 ; 11.324 ; 12.314 ;
+; down[1]      ; req_down_out ;        ; 10.559 ; 10.559 ;        ;
+; down[1]      ; req_up_max   ; 11.860 ; 11.893 ; 11.893 ; 11.860 ;
+; down[2]      ; req_current  ; 11.203 ;        ;        ; 11.203 ;
+; down[2]      ; req_down_cur ; 11.188 ;        ;        ; 11.188 ;
+; down[2]      ; req_down_min ; 12.612 ; 12.041 ; 12.041 ; 12.612 ;
+; down[2]      ; req_down_out ;        ; 10.713 ; 10.713 ;        ;
+; down[2]      ; req_up_max   ; 12.158 ; 11.992 ; 11.992 ; 12.158 ;
+; down[3]      ; req_current  ; 10.925 ;        ;        ; 10.925 ;
+; down[3]      ; req_down_cur ; 10.910 ;        ;        ; 10.910 ;
+; down[3]      ; req_down_min ; 12.326 ; 12.037 ; 12.037 ; 12.326 ;
+; down[3]      ; req_down_out ;        ; 10.388 ; 10.388 ;        ;
+; down[3]      ; req_up_max   ; 11.872 ; 11.709 ; 11.709 ; 11.872 ;
+; down[4]      ; req_current  ; 11.806 ;        ;        ; 11.806 ;
+; down[4]      ; req_down_cur ; 11.791 ;        ;        ; 11.791 ;
+; down[4]      ; req_down_min ; 12.831 ; 12.435 ; 12.435 ; 12.831 ;
+; down[4]      ; req_down_out ;        ; 10.748 ; 10.748 ;        ;
+; down[4]      ; req_up_max   ; 12.377 ; 11.939 ; 11.939 ; 12.377 ;
+; down[5]      ; req_current  ; 11.368 ;        ;        ; 11.368 ;
+; down[5]      ; req_down_cur ; 11.353 ;        ;        ; 11.353 ;
+; down[5]      ; req_down_min ; 11.777 ; 11.414 ; 11.414 ; 11.777 ;
+; down[5]      ; req_down_out ;        ; 9.929  ; 9.929  ;        ;
+; down[5]      ; req_up_max   ; 11.991 ; 11.991 ; 11.991 ; 11.991 ;
+; open_bt      ; open_button  ; 8.885  ;        ;        ; 8.885  ;
+; open_bt      ; req_current  ; 10.702 ;        ;        ; 10.702 ;
+; req_in[0]    ; req_current  ; 12.032 ;        ;        ; 12.032 ;
+; req_in[0]    ; req_down_cur ; 11.221 ;        ;        ; 11.221 ;
+; req_in[0]    ; req_down_in  ; 10.882 ; 11.758 ; 11.758 ; 10.882 ;
+; req_in[0]    ; req_down_min ; 13.136 ; 12.221 ; 12.221 ; 13.136 ;
+; req_in[0]    ; req_up_cur   ; 11.399 ;        ;        ; 11.399 ;
+; req_in[0]    ; req_up_in    ; 11.267 ;        ;        ; 11.267 ;
+; req_in[0]    ; req_up_max   ; 12.682 ;        ;        ; 12.682 ;
+; req_in[1]    ; req_current  ; 11.721 ;        ;        ; 11.721 ;
+; req_in[1]    ; req_down_cur ; 10.910 ;        ;        ; 10.910 ;
+; req_in[1]    ; req_down_in  ; 10.544 ; 11.321 ; 11.321 ; 10.544 ;
+; req_in[1]    ; req_down_min ; 12.403 ; 11.413 ; 11.413 ; 12.403 ;
+; req_in[1]    ; req_up_cur   ; 11.088 ;        ;        ; 11.088 ;
+; req_in[1]    ; req_up_in    ; 10.689 ;        ;        ; 10.689 ;
+; req_in[1]    ; req_up_max   ; 11.949 ; 12.320 ; 12.320 ; 11.949 ;
+; req_in[2]    ; req_current  ; 12.562 ;        ;        ; 12.562 ;
+; req_in[2]    ; req_down_cur ; 11.758 ;        ;        ; 11.758 ;
+; req_in[2]    ; req_down_in  ; 11.433 ; 11.389 ; 11.389 ; 11.433 ;
+; req_in[2]    ; req_down_min ; 12.670 ; 12.099 ; 12.099 ; 12.670 ;
+; req_in[2]    ; req_up_cur   ; 11.929 ;        ;        ; 11.929 ;
+; req_in[2]    ; req_up_in    ; 11.429 ;        ;        ; 11.429 ;
+; req_in[2]    ; req_up_max   ; 12.216 ; 12.050 ; 12.050 ; 12.216 ;
+; req_in[3]    ; req_current  ; 12.014 ;        ;        ; 12.014 ;
+; req_in[3]    ; req_down_cur ; 11.210 ;        ;        ; 11.210 ;
+; req_in[3]    ; req_down_in  ; 10.878 ; 11.304 ; 11.304 ; 10.878 ;
+; req_in[3]    ; req_down_min ; 12.581 ; 12.292 ; 12.292 ; 12.581 ;
+; req_in[3]    ; req_up_cur   ; 11.381 ;        ;        ; 11.381 ;
+; req_in[3]    ; req_up_in    ; 10.779 ;        ;        ; 10.779 ;
+; req_in[3]    ; req_up_max   ; 12.127 ; 12.123 ; 12.123 ; 12.127 ;
+; req_in[4]    ; req_current  ; 11.531 ;        ;        ; 11.531 ;
+; req_in[4]    ; req_down_cur ; 10.727 ;        ;        ; 10.727 ;
+; req_in[4]    ; req_down_in  ; 9.941  ; 11.271 ; 11.271 ; 9.941  ;
+; req_in[4]    ; req_down_min ; 12.777 ; 12.381 ; 12.381 ; 12.777 ;
+; req_in[4]    ; req_up_cur   ; 10.898 ;        ;        ; 10.898 ;
+; req_in[4]    ; req_up_in    ; 10.496 ;        ;        ; 10.496 ;
+; req_in[4]    ; req_up_max   ; 12.323 ; 11.885 ; 11.885 ; 12.323 ;
+; req_in[5]    ; req_current  ; 8.383  ;        ;        ; 8.383  ;
+; req_in[5]    ; req_down_cur ; 7.579  ;        ;        ; 7.579  ;
+; req_in[5]    ; req_down_in  ; 6.488  ; 7.463  ; 7.463  ; 6.488  ;
+; req_in[5]    ; req_down_min ; 8.625  ; 8.262  ; 8.262  ; 8.625  ;
+; req_in[5]    ; req_up_cur   ; 7.750  ;        ;        ; 7.750  ;
+; req_in[5]    ; req_up_in    ; 6.673  ;        ;        ; 6.673  ;
+; req_in[5]    ; req_up_max   ; 8.782  ; 8.782  ; 8.782  ; 8.782  ;
+; up[0]        ; req_current  ; 11.052 ;        ;        ; 11.052 ;
+; up[0]        ; req_down_min ; 12.393 ; 11.478 ; 11.478 ; 12.393 ;
+; up[0]        ; req_up_cur   ; 10.419 ;        ;        ; 10.419 ;
+; up[0]        ; req_up_max   ; 11.939 ;        ;        ; 11.939 ;
+; up[0]        ; req_up_out   ; 11.000 ;        ;        ; 11.000 ;
+; up[1]        ; req_current  ; 10.692 ;        ;        ; 10.692 ;
+; up[1]        ; req_down_min ; 11.985 ; 10.995 ; 10.995 ; 11.985 ;
+; up[1]        ; req_up_cur   ; 10.059 ;        ;        ; 10.059 ;
+; up[1]        ; req_up_max   ; 11.531 ; 11.962 ; 11.962 ; 11.531 ;
+; up[1]        ; req_up_out   ; 10.798 ;        ;        ; 10.798 ;
+; up[2]        ; req_current  ; 11.411 ;        ;        ; 11.411 ;
+; up[2]        ; req_down_min ; 12.543 ; 11.972 ; 11.972 ; 12.543 ;
+; up[2]        ; req_up_cur   ; 10.778 ;        ;        ; 10.778 ;
+; up[2]        ; req_up_max   ; 12.089 ; 11.923 ; 11.923 ; 12.089 ;
+; up[2]        ; req_up_out   ; 11.154 ;        ;        ; 11.154 ;
+; up[3]        ; req_current  ; 10.835 ;        ;        ; 10.835 ;
+; up[3]        ; req_down_min ; 12.338 ; 12.049 ; 12.049 ; 12.338 ;
+; up[3]        ; req_up_cur   ; 10.202 ;        ;        ; 10.202 ;
+; up[3]        ; req_up_max   ; 11.884 ; 11.721 ; 11.721 ; 11.884 ;
+; up[3]        ; req_up_out   ; 10.849 ;        ;        ; 10.849 ;
+; up[4]        ; req_current  ; 10.746 ;        ;        ; 10.746 ;
+; up[4]        ; req_down_min ; 12.316 ; 11.920 ; 11.920 ; 12.316 ;
+; up[4]        ; req_up_cur   ; 10.113 ;        ;        ; 10.113 ;
+; up[4]        ; req_up_max   ; 11.862 ; 11.424 ; 11.424 ; 11.862 ;
+; up[4]        ; req_up_out   ; 10.558 ;        ;        ; 10.558 ;
+; up[5]        ; req_current  ; 11.065 ;        ;        ; 11.065 ;
+; up[5]        ; req_down_min ; 11.866 ; 11.503 ; 11.503 ; 11.866 ;
+; up[5]        ; req_up_cur   ; 10.432 ;        ;        ; 10.432 ;
+; up[5]        ; req_up_max   ; 11.517 ; 11.517 ; 11.517 ; 11.517 ;
+; up[5]        ; req_up_out   ; 9.955  ;        ;        ; 9.955  ;
++--------------+--------------+--------+--------+--------+--------+
+
+
++-----------------------------------------------------------------+
+; Minimum Propagation Delay                                       ;
++--------------+--------------+--------+--------+--------+--------+
+; Input Port   ; Output Port  ; RR     ; RF     ; FR     ; FF     ;
++--------------+--------------+--------+--------+--------+--------+
+; close_bt     ; close_button ; 7.920  ;        ;        ; 7.920  ;
+; cur_floor[0] ; req_current  ; 11.754 ;        ;        ; 11.754 ;
+; cur_floor[0] ; req_down_cur ; 11.517 ;        ;        ; 11.517 ;
+; cur_floor[0] ; req_down_in  ; 11.825 ;        ;        ; 11.825 ;
+; cur_floor[0] ; req_down_min ; 11.080 ; 12.171 ; 12.171 ; 11.080 ;
+; cur_floor[0] ; req_down_out ; 11.134 ;        ;        ; 11.134 ;
+; cur_floor[0] ; req_up_cur   ; 11.121 ;        ;        ; 11.121 ;
+; cur_floor[0] ; req_up_in    ;        ; 11.311 ; 11.311 ;        ;
+; cur_floor[0] ; req_up_max   ; 11.125 ;        ;        ; 11.125 ;
+; cur_floor[0] ; req_up_out   ;        ; 11.375 ; 11.375 ;        ;
+; cur_floor[1] ; req_current  ; 11.257 ;        ;        ; 11.257 ;
+; cur_floor[1] ; req_down_cur ; 11.023 ;        ;        ; 11.023 ;
+; cur_floor[1] ; req_down_in  ; 11.258 ;        ;        ; 11.258 ;
+; cur_floor[1] ; req_down_min ; 11.345 ; 11.479 ; 11.479 ; 11.345 ;
+; cur_floor[1] ; req_down_out ; 10.768 ;        ;        ; 10.768 ;
+; cur_floor[1] ; req_up_cur   ; 10.624 ;        ;        ; 10.624 ;
+; cur_floor[1] ; req_up_in    ;        ; 10.533 ; 10.533 ;        ;
+; cur_floor[1] ; req_up_max   ; 10.891 ;        ;        ; 10.891 ;
+; cur_floor[1] ; req_up_out   ;        ; 11.007 ; 11.007 ;        ;
+; cur_floor[2] ; req_current  ; 10.952 ;        ;        ; 10.952 ;
+; cur_floor[2] ; req_down_cur ; 10.792 ;        ;        ; 10.792 ;
+; cur_floor[2] ; req_down_in  ; 11.267 ;        ;        ; 11.267 ;
+; cur_floor[2] ; req_down_min ; 11.650 ; 11.755 ; 11.755 ; 11.650 ;
+; cur_floor[2] ; req_down_out ; 10.694 ;        ;        ; 10.694 ;
+; cur_floor[2] ; req_up_cur   ; 10.384 ;        ;        ; 10.384 ;
+; cur_floor[2] ; req_up_in    ;        ; 10.396 ; 10.396 ;        ;
+; cur_floor[2] ; req_up_max   ; 11.196 ; 12.022 ; 12.022 ; 11.196 ;
+; cur_floor[2] ; req_up_out   ;        ; 11.336 ; 11.336 ;        ;
+; cur_floor[3] ; req_current  ; 11.188 ;        ;        ; 11.188 ;
+; cur_floor[3] ; req_down_cur ; 10.856 ;        ;        ; 10.856 ;
+; cur_floor[3] ; req_down_in  ; 11.130 ;        ;        ; 11.130 ;
+; cur_floor[3] ; req_down_min ; 11.402 ; 11.790 ; 11.790 ; 11.402 ;
+; cur_floor[3] ; req_down_out ; 10.670 ;        ;        ; 10.670 ;
+; cur_floor[3] ; req_up_cur   ; 10.622 ;        ;        ; 10.622 ;
+; cur_floor[3] ; req_up_in    ;        ; 10.355 ; 10.355 ;        ;
+; cur_floor[3] ; req_up_max   ; 10.948 ; 11.530 ; 11.530 ; 10.948 ;
+; cur_floor[3] ; req_up_out   ;        ; 10.915 ; 10.915 ;        ;
+; cur_floor[4] ; req_current  ; 11.468 ;        ;        ; 11.468 ;
+; cur_floor[4] ; req_down_cur ; 10.849 ;        ;        ; 10.849 ;
+; cur_floor[4] ; req_down_in  ; 11.284 ;        ;        ; 11.284 ;
+; cur_floor[4] ; req_down_min ; 11.228 ; 12.197 ; 12.197 ; 11.228 ;
+; cur_floor[4] ; req_down_out ; 10.621 ;        ;        ; 10.621 ;
+; cur_floor[4] ; req_up_cur   ; 10.876 ;        ;        ; 10.876 ;
+; cur_floor[4] ; req_up_in    ;        ; 10.318 ; 10.318 ;        ;
+; cur_floor[4] ; req_up_max   ; 10.684 ; 11.861 ; 11.861 ; 10.684 ;
+; cur_floor[4] ; req_up_out   ;        ; 10.867 ; 10.867 ;        ;
+; cur_floor[5] ; req_current  ; 7.562  ;        ;        ; 7.562  ;
+; cur_floor[5] ; req_down_cur ; 6.916  ;        ;        ; 6.916  ;
+; cur_floor[5] ; req_down_in  ; 6.829  ;        ;        ; 6.829  ;
+; cur_floor[5] ; req_down_min ; 7.938  ; 7.938  ; 7.938  ; 7.938  ;
+; cur_floor[5] ; req_down_out ; 6.660  ;        ;        ; 6.660  ;
+; cur_floor[5] ; req_up_cur   ; 6.929  ;        ;        ; 6.929  ;
+; cur_floor[5] ; req_up_in    ;        ; 6.559  ; 6.559  ;        ;
+; cur_floor[5] ; req_up_max   ; 6.450  ;        ;        ; 6.450  ;
+; cur_floor[5] ; req_up_out   ;        ; 6.876  ; 6.876  ;        ;
+; down[0]      ; req_current  ; 10.986 ;        ;        ; 10.986 ;
+; down[0]      ; req_down_cur ; 10.971 ;        ;        ; 10.971 ;
+; down[0]      ; req_down_min ; 12.363 ; 11.448 ; 11.448 ; 12.363 ;
+; down[0]      ; req_down_out ;        ; 10.564 ; 10.564 ;        ;
+; down[0]      ; req_up_max   ; 11.909 ;        ;        ; 11.909 ;
+; down[1]      ; req_current  ; 11.120 ;        ;        ; 11.120 ;
+; down[1]      ; req_down_cur ; 11.105 ;        ;        ; 11.105 ;
+; down[1]      ; req_down_min ; 12.314 ; 11.324 ; 11.324 ; 12.314 ;
+; down[1]      ; req_down_out ;        ; 10.559 ; 10.559 ;        ;
+; down[1]      ; req_up_max   ; 11.860 ; 11.893 ; 11.893 ; 11.860 ;
+; down[2]      ; req_current  ; 11.203 ;        ;        ; 11.203 ;
+; down[2]      ; req_down_cur ; 11.188 ;        ;        ; 11.188 ;
+; down[2]      ; req_down_min ; 12.612 ; 12.041 ; 12.041 ; 12.612 ;
+; down[2]      ; req_down_out ;        ; 10.713 ; 10.713 ;        ;
+; down[2]      ; req_up_max   ; 12.158 ; 11.992 ; 11.992 ; 12.158 ;
+; down[3]      ; req_current  ; 10.925 ;        ;        ; 10.925 ;
+; down[3]      ; req_down_cur ; 10.910 ;        ;        ; 10.910 ;
+; down[3]      ; req_down_min ; 12.326 ; 12.037 ; 12.037 ; 12.326 ;
+; down[3]      ; req_down_out ;        ; 10.388 ; 10.388 ;        ;
+; down[3]      ; req_up_max   ; 11.419 ; 11.419 ; 11.419 ; 11.419 ;
+; down[4]      ; req_current  ; 11.806 ;        ;        ; 11.806 ;
+; down[4]      ; req_down_cur ; 11.791 ;        ;        ; 11.791 ;
+; down[4]      ; req_down_min ; 12.831 ; 12.435 ; 12.435 ; 12.831 ;
+; down[4]      ; req_down_out ;        ; 10.748 ; 10.748 ;        ;
+; down[4]      ; req_up_max   ; 11.810 ; 11.810 ; 11.810 ; 11.810 ;
+; down[5]      ; req_current  ; 11.368 ;        ;        ; 11.368 ;
+; down[5]      ; req_down_cur ; 11.353 ;        ;        ; 11.353 ;
+; down[5]      ; req_down_min ; 11.777 ; 11.414 ; 11.414 ; 11.777 ;
+; down[5]      ; req_down_out ;        ; 9.929  ; 9.929  ;        ;
+; down[5]      ; req_up_max   ; 11.323 ; 10.759 ; 10.759 ; 11.323 ;
+; open_bt      ; open_button  ; 8.885  ;        ;        ; 8.885  ;
+; open_bt      ; req_current  ; 10.702 ;        ;        ; 10.702 ;
+; req_in[0]    ; req_current  ; 12.032 ;        ;        ; 12.032 ;
+; req_in[0]    ; req_down_cur ; 11.221 ;        ;        ; 11.221 ;
+; req_in[0]    ; req_down_in  ; 10.882 ; 11.758 ; 11.758 ; 10.882 ;
+; req_in[0]    ; req_down_min ; 13.136 ; 12.221 ; 12.221 ; 13.136 ;
+; req_in[0]    ; req_up_cur   ; 11.399 ;        ;        ; 11.399 ;
+; req_in[0]    ; req_up_in    ; 11.267 ;        ;        ; 11.267 ;
+; req_in[0]    ; req_up_max   ; 12.682 ;        ;        ; 12.682 ;
+; req_in[1]    ; req_current  ; 11.721 ;        ;        ; 11.721 ;
+; req_in[1]    ; req_down_cur ; 10.910 ;        ;        ; 10.910 ;
+; req_in[1]    ; req_down_in  ; 10.544 ; 11.321 ; 11.321 ; 10.544 ;
+; req_in[1]    ; req_down_min ; 12.403 ; 11.413 ; 11.413 ; 12.403 ;
+; req_in[1]    ; req_up_cur   ; 11.088 ;        ;        ; 11.088 ;
+; req_in[1]    ; req_up_in    ; 10.689 ;        ;        ; 10.689 ;
+; req_in[1]    ; req_up_max   ; 11.949 ; 12.320 ; 12.320 ; 11.949 ;
+; req_in[2]    ; req_current  ; 12.562 ;        ;        ; 12.562 ;
+; req_in[2]    ; req_down_cur ; 11.758 ;        ;        ; 11.758 ;
+; req_in[2]    ; req_down_in  ; 11.433 ; 11.389 ; 11.389 ; 11.433 ;
+; req_in[2]    ; req_down_min ; 12.670 ; 12.099 ; 12.099 ; 12.670 ;
+; req_in[2]    ; req_up_cur   ; 11.929 ;        ;        ; 11.929 ;
+; req_in[2]    ; req_up_in    ; 11.429 ;        ;        ; 11.429 ;
+; req_in[2]    ; req_up_max   ; 12.216 ; 12.050 ; 12.050 ; 12.216 ;
+; req_in[3]    ; req_current  ; 12.014 ;        ;        ; 12.014 ;
+; req_in[3]    ; req_down_cur ; 11.210 ;        ;        ; 11.210 ;
+; req_in[3]    ; req_down_in  ; 10.878 ; 11.304 ; 11.304 ; 10.878 ;
+; req_in[3]    ; req_down_min ; 12.581 ; 12.292 ; 12.292 ; 12.581 ;
+; req_in[3]    ; req_up_cur   ; 11.381 ;        ;        ; 11.381 ;
+; req_in[3]    ; req_up_in    ; 10.779 ;        ;        ; 10.779 ;
+; req_in[3]    ; req_up_max   ; 12.123 ; 11.964 ; 11.964 ; 12.123 ;
+; req_in[4]    ; req_current  ; 11.531 ;        ;        ; 11.531 ;
+; req_in[4]    ; req_down_cur ; 10.727 ;        ;        ; 10.727 ;
+; req_in[4]    ; req_down_in  ; 9.941  ; 11.271 ; 11.271 ; 9.941  ;
+; req_in[4]    ; req_down_min ; 12.777 ; 12.381 ; 12.381 ; 12.777 ;
+; req_in[4]    ; req_up_cur   ; 10.898 ;        ;        ; 10.898 ;
+; req_in[4]    ; req_up_in    ; 10.496 ;        ;        ; 10.496 ;
+; req_in[4]    ; req_up_max   ; 11.423 ; 11.423 ; 11.423 ; 11.423 ;
+; req_in[5]    ; req_current  ; 8.383  ;        ;        ; 8.383  ;
+; req_in[5]    ; req_down_cur ; 7.579  ;        ;        ; 7.579  ;
+; req_in[5]    ; req_down_in  ; 6.488  ; 7.463  ; 7.463  ; 6.488  ;
+; req_in[5]    ; req_down_min ; 8.625  ; 8.262  ; 8.262  ; 8.625  ;
+; req_in[5]    ; req_up_cur   ; 7.750  ;        ;        ; 7.750  ;
+; req_in[5]    ; req_up_in    ; 6.673  ;        ;        ; 6.673  ;
+; req_in[5]    ; req_up_max   ; 8.171  ; 7.565  ; 7.565  ; 8.171  ;
+; up[0]        ; req_current  ; 11.052 ;        ;        ; 11.052 ;
+; up[0]        ; req_down_min ; 12.393 ; 11.478 ; 11.478 ; 12.393 ;
+; up[0]        ; req_up_cur   ; 10.419 ;        ;        ; 10.419 ;
+; up[0]        ; req_up_max   ; 11.939 ;        ;        ; 11.939 ;
+; up[0]        ; req_up_out   ; 11.000 ;        ;        ; 11.000 ;
+; up[1]        ; req_current  ; 10.692 ;        ;        ; 10.692 ;
+; up[1]        ; req_down_min ; 11.985 ; 10.995 ; 10.995 ; 11.985 ;
+; up[1]        ; req_up_cur   ; 10.059 ;        ;        ; 10.059 ;
+; up[1]        ; req_up_max   ; 11.531 ; 11.962 ; 11.962 ; 11.531 ;
+; up[1]        ; req_up_out   ; 10.798 ;        ;        ; 10.798 ;
+; up[2]        ; req_current  ; 11.411 ;        ;        ; 11.411 ;
+; up[2]        ; req_down_min ; 12.543 ; 11.972 ; 11.972 ; 12.543 ;
+; up[2]        ; req_up_cur   ; 10.778 ;        ;        ; 10.778 ;
+; up[2]        ; req_up_max   ; 12.089 ; 11.923 ; 11.923 ; 12.089 ;
+; up[2]        ; req_up_out   ; 11.154 ;        ;        ; 11.154 ;
+; up[3]        ; req_current  ; 10.835 ;        ;        ; 10.835 ;
+; up[3]        ; req_down_min ; 12.338 ; 12.049 ; 12.049 ; 12.338 ;
+; up[3]        ; req_up_cur   ; 10.202 ;        ;        ; 10.202 ;
+; up[3]        ; req_up_max   ; 11.536 ; 11.536 ; 11.536 ; 11.536 ;
+; up[3]        ; req_up_out   ; 10.849 ;        ;        ; 10.849 ;
+; up[4]        ; req_current  ; 10.746 ;        ;        ; 10.746 ;
+; up[4]        ; req_down_min ; 12.316 ; 11.920 ; 11.920 ; 12.316 ;
+; up[4]        ; req_up_cur   ; 10.113 ;        ;        ; 10.113 ;
+; up[4]        ; req_up_max   ; 11.265 ; 11.265 ; 11.265 ; 11.265 ;
+; up[4]        ; req_up_out   ; 10.558 ;        ;        ; 10.558 ;
+; up[5]        ; req_current  ; 11.065 ;        ;        ; 11.065 ;
+; up[5]        ; req_down_min ; 11.866 ; 11.503 ; 11.503 ; 11.866 ;
+; up[5]        ; req_up_cur   ; 10.432 ;        ;        ; 10.432 ;
+; up[5]        ; req_up_max   ; 11.412 ; 10.334 ; 10.334 ; 11.412 ;
+; up[5]        ; req_up_out   ; 9.955  ;        ;        ; 9.955  ;
++--------------+--------------+--------+--------+--------+--------+
+
+
+----------------------------
+; Fast Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Fast Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Fast Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Fast Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Fast Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++-------------------------------------------------------------+
+; Propagation Delay                                           ;
++--------------+--------------+-------+-------+-------+-------+
+; Input Port   ; Output Port  ; RR    ; RF    ; FR    ; FF    ;
++--------------+--------------+-------+-------+-------+-------+
+; close_bt     ; close_button ; 4.566 ;       ;       ; 4.566 ;
+; cur_floor[0] ; req_current  ; 6.548 ;       ;       ; 6.548 ;
+; cur_floor[0] ; req_down_cur ; 6.410 ;       ;       ; 6.410 ;
+; cur_floor[0] ; req_down_in  ; 6.338 ;       ;       ; 6.338 ;
+; cur_floor[0] ; req_down_min ; 6.879 ; 6.879 ; 6.879 ; 6.879 ;
+; cur_floor[0] ; req_down_out ; 6.028 ;       ;       ; 6.028 ;
+; cur_floor[0] ; req_up_cur   ; 6.269 ;       ;       ; 6.269 ;
+; cur_floor[0] ; req_up_in    ;       ; 6.091 ; 6.091 ;       ;
+; cur_floor[0] ; req_up_max   ; 6.638 ;       ;       ; 6.638 ;
+; cur_floor[0] ; req_up_out   ;       ; 6.166 ; 6.166 ;       ;
+; cur_floor[1] ; req_current  ; 6.314 ;       ;       ; 6.314 ;
+; cur_floor[1] ; req_down_cur ; 6.174 ;       ;       ; 6.174 ;
+; cur_floor[1] ; req_down_in  ; 6.064 ;       ;       ; 6.064 ;
+; cur_floor[1] ; req_down_min ; 6.705 ; 6.705 ; 6.705 ; 6.705 ;
+; cur_floor[1] ; req_down_out ; 5.857 ;       ;       ; 5.857 ;
+; cur_floor[1] ; req_up_cur   ; 6.035 ;       ;       ; 6.035 ;
+; cur_floor[1] ; req_up_in    ;       ; 5.734 ; 5.734 ;       ;
+; cur_floor[1] ; req_up_max   ; 6.125 ;       ;       ; 6.125 ;
+; cur_floor[1] ; req_up_out   ;       ; 5.994 ; 5.994 ;       ;
+; cur_floor[2] ; req_current  ; 6.218 ;       ;       ; 6.218 ;
+; cur_floor[2] ; req_down_cur ; 5.948 ;       ;       ; 5.948 ;
+; cur_floor[2] ; req_down_in  ; 6.075 ;       ;       ; 6.075 ;
+; cur_floor[2] ; req_down_min ; 6.698 ; 6.698 ; 6.698 ; 6.698 ;
+; cur_floor[2] ; req_down_out ; 5.823 ;       ;       ; 5.823 ;
+; cur_floor[2] ; req_up_cur   ; 5.939 ;       ;       ; 5.939 ;
+; cur_floor[2] ; req_up_in    ;       ; 5.686 ; 5.686 ;       ;
+; cur_floor[2] ; req_up_max   ; 6.408 ; 6.408 ; 6.408 ; 6.408 ;
+; cur_floor[2] ; req_up_out   ;       ; 6.147 ; 6.147 ;       ;
+; cur_floor[3] ; req_current  ; 6.240 ;       ;       ; 6.240 ;
+; cur_floor[3] ; req_down_cur ; 6.049 ;       ;       ; 6.049 ;
+; cur_floor[3] ; req_down_in  ; 6.015 ;       ;       ; 6.015 ;
+; cur_floor[3] ; req_down_min ; 6.673 ; 6.673 ; 6.673 ; 6.673 ;
+; cur_floor[3] ; req_down_out ; 5.810 ;       ;       ; 5.810 ;
+; cur_floor[3] ; req_up_cur   ; 5.961 ;       ;       ; 5.961 ;
+; cur_floor[3] ; req_up_in    ;       ; 5.662 ; 5.662 ;       ;
+; cur_floor[3] ; req_up_max   ; 6.231 ; 6.231 ; 6.231 ; 6.231 ;
+; cur_floor[3] ; req_up_out   ;       ; 5.952 ; 5.952 ;       ;
+; cur_floor[4] ; req_current  ; 6.233 ;       ;       ; 6.233 ;
+; cur_floor[4] ; req_down_cur ; 6.145 ;       ;       ; 6.145 ;
+; cur_floor[4] ; req_down_in  ; 6.074 ;       ;       ; 6.074 ;
+; cur_floor[4] ; req_down_min ; 6.533 ; 6.533 ; 6.533 ; 6.533 ;
+; cur_floor[4] ; req_down_out ; 5.789 ;       ;       ; 5.789 ;
+; cur_floor[4] ; req_up_cur   ; 5.954 ;       ;       ; 5.954 ;
+; cur_floor[4] ; req_up_in    ;       ; 5.634 ; 5.634 ;       ;
+; cur_floor[4] ; req_up_max   ; 6.370 ; 6.370 ; 6.370 ; 6.370 ;
+; cur_floor[4] ; req_up_out   ;       ; 5.933 ; 5.933 ;       ;
+; cur_floor[5] ; req_current  ; 3.919 ;       ;       ; 3.919 ;
+; cur_floor[5] ; req_down_cur ; 3.901 ;       ;       ; 3.901 ;
+; cur_floor[5] ; req_down_in  ; 3.494 ;       ;       ; 3.494 ;
+; cur_floor[5] ; req_down_min ; 3.993 ; 3.985 ; 3.985 ; 3.993 ;
+; cur_floor[5] ; req_down_out ; 3.426 ;       ;       ; 3.426 ;
+; cur_floor[5] ; req_up_cur   ; 3.578 ;       ;       ; 3.578 ;
+; cur_floor[5] ; req_up_in    ;       ; 3.375 ; 3.375 ;       ;
+; cur_floor[5] ; req_up_max   ; 3.796 ;       ;       ; 3.796 ;
+; cur_floor[5] ; req_up_out   ;       ; 3.559 ; 3.559 ;       ;
+; down[0]      ; req_current  ; 5.941 ;       ;       ; 5.941 ;
+; down[0]      ; req_down_cur ; 5.923 ;       ;       ; 5.923 ;
+; down[0]      ; req_down_min ; 6.570 ; 6.152 ; 6.152 ; 6.570 ;
+; down[0]      ; req_down_out ;       ; 5.756 ; 5.756 ;       ;
+; down[0]      ; req_up_max   ; 6.373 ;       ;       ; 6.373 ;
+; down[1]      ; req_current  ; 6.000 ;       ;       ; 6.000 ;
+; down[1]      ; req_down_cur ; 5.982 ;       ;       ; 5.982 ;
+; down[1]      ; req_down_min ; 6.537 ; 6.091 ; 6.091 ; 6.537 ;
+; down[1]      ; req_down_out ;       ; 5.757 ; 5.757 ;       ;
+; down[1]      ; req_up_max   ; 6.340 ; 6.335 ; 6.335 ; 6.340 ;
+; down[2]      ; req_current  ; 6.040 ;       ;       ; 6.040 ;
+; down[2]      ; req_down_cur ; 6.022 ;       ;       ; 6.022 ;
+; down[2]      ; req_down_min ; 6.664 ; 6.419 ; 6.419 ; 6.664 ;
+; down[2]      ; req_down_out ;       ; 5.813 ; 5.813 ;       ;
+; down[2]      ; req_up_max   ; 6.467 ; 6.377 ; 6.377 ; 6.467 ;
+; down[3]      ; req_current  ; 5.931 ;       ;       ; 5.931 ;
+; down[3]      ; req_down_cur ; 5.913 ;       ;       ; 5.913 ;
+; down[3]      ; req_down_min ; 6.577 ; 6.453 ; 6.453 ; 6.577 ;
+; down[3]      ; req_down_out ;       ; 5.679 ; 5.679 ;       ;
+; down[3]      ; req_up_max   ; 6.380 ; 6.274 ; 6.274 ; 6.380 ;
+; down[4]      ; req_current  ; 6.312 ;       ;       ; 6.312 ;
+; down[4]      ; req_down_cur ; 6.294 ;       ;       ; 6.294 ;
+; down[4]      ; req_down_min ; 6.798 ; 6.617 ; 6.617 ; 6.798 ;
+; down[4]      ; req_down_out ;       ; 5.828 ; 5.828 ;       ;
+; down[4]      ; req_up_max   ; 6.601 ; 6.383 ; 6.383 ; 6.601 ;
+; down[5]      ; req_current  ; 6.138 ;       ;       ; 6.138 ;
+; down[5]      ; req_down_cur ; 6.120 ;       ;       ; 6.120 ;
+; down[5]      ; req_down_min ; 6.343 ; 6.179 ; 6.179 ; 6.343 ;
+; down[5]      ; req_down_out ;       ; 5.513 ; 5.513 ;       ;
+; down[5]      ; req_up_max   ; 6.426 ; 6.426 ; 6.426 ; 6.426 ;
+; open_bt      ; open_button  ; 5.040 ;       ;       ; 5.040 ;
+; open_bt      ; req_current  ; 5.888 ;       ;       ; 5.888 ;
+; req_in[0]    ; req_current  ; 6.412 ;       ;       ; 6.412 ;
+; req_in[0]    ; req_down_cur ; 6.066 ;       ;       ; 6.066 ;
+; req_in[0]    ; req_down_in  ; 5.924 ; 6.291 ; 6.291 ; 5.924 ;
+; req_in[0]    ; req_down_min ; 6.934 ; 6.516 ; 6.516 ; 6.934 ;
+; req_in[0]    ; req_up_cur   ; 6.133 ;       ;       ; 6.133 ;
+; req_in[0]    ; req_up_in    ; 6.074 ;       ;       ; 6.074 ;
+; req_in[0]    ; req_up_max   ; 6.737 ;       ;       ; 6.737 ;
+; req_in[1]    ; req_current  ; 6.260 ;       ;       ; 6.260 ;
+; req_in[1]    ; req_down_cur ; 5.914 ;       ;       ; 5.914 ;
+; req_in[1]    ; req_down_in  ; 5.777 ; 6.094 ; 6.094 ; 5.777 ;
+; req_in[1]    ; req_down_min ; 6.599 ; 6.153 ; 6.153 ; 6.599 ;
+; req_in[1]    ; req_up_cur   ; 5.981 ;       ;       ; 5.981 ;
+; req_in[1]    ; req_up_in    ; 5.812 ;       ;       ; 5.812 ;
+; req_in[1]    ; req_up_max   ; 6.402 ; 6.554 ; 6.554 ; 6.402 ;
+; req_in[2]    ; req_current  ; 6.635 ;       ;       ; 6.635 ;
+; req_in[2]    ; req_down_cur ; 6.292 ;       ;       ; 6.292 ;
+; req_in[2]    ; req_down_in  ; 6.166 ; 6.123 ; 6.123 ; 6.166 ;
+; req_in[2]    ; req_down_min ; 6.726 ; 6.481 ; 6.481 ; 6.726 ;
+; req_in[2]    ; req_up_cur   ; 6.356 ;       ;       ; 6.356 ;
+; req_in[2]    ; req_up_in    ; 6.147 ;       ;       ; 6.147 ;
+; req_in[2]    ; req_up_max   ; 6.529 ; 6.439 ; 6.439 ; 6.529 ;
+; req_in[3]    ; req_current  ; 6.384 ;       ;       ; 6.384 ;
+; req_in[3]    ; req_down_cur ; 6.041 ;       ;       ; 6.041 ;
+; req_in[3]    ; req_down_in  ; 5.905 ; 6.071 ; 6.071 ; 5.905 ;
+; req_in[3]    ; req_down_min ; 6.689 ; 6.565 ; 6.565 ; 6.689 ;
+; req_in[3]    ; req_up_cur   ; 6.105 ;       ;       ; 6.105 ;
+; req_in[3]    ; req_up_in    ; 5.832 ;       ;       ; 5.832 ;
+; req_in[3]    ; req_up_max   ; 6.492 ; 6.438 ; 6.438 ; 6.492 ;
+; req_in[4]    ; req_current  ; 6.172 ;       ;       ; 6.172 ;
+; req_in[4]    ; req_down_cur ; 5.830 ;       ;       ; 5.830 ;
+; req_in[4]    ; req_down_in  ; 5.510 ; 6.050 ; 6.050 ; 5.510 ;
+; req_in[4]    ; req_down_min ; 6.754 ; 6.573 ; 6.573 ; 6.754 ;
+; req_in[4]    ; req_up_cur   ; 5.893 ;       ;       ; 5.893 ;
+; req_in[4]    ; req_up_in    ; 5.705 ;       ;       ; 5.705 ;
+; req_in[4]    ; req_up_max   ; 6.557 ; 6.339 ; 6.339 ; 6.557 ;
+; req_in[5]    ; req_current  ; 4.172 ;       ;       ; 4.172 ;
+; req_in[5]    ; req_down_cur ; 3.830 ;       ;       ; 3.830 ;
+; req_in[5]    ; req_down_in  ; 3.382 ; 3.805 ; 3.805 ; 3.382 ;
+; req_in[5]    ; req_down_min ; 4.330 ; 4.166 ; 4.166 ; 4.330 ;
+; req_in[5]    ; req_up_cur   ; 3.893 ;       ;       ; 3.893 ;
+; req_in[5]    ; req_up_in    ; 3.452 ;       ;       ; 3.452 ;
+; req_in[5]    ; req_up_max   ; 4.378 ; 4.378 ; 4.378 ; 4.378 ;
+; up[0]        ; req_current  ; 5.957 ;       ;       ; 5.957 ;
+; up[0]        ; req_down_min ; 6.584 ; 6.166 ; 6.166 ; 6.584 ;
+; up[0]        ; req_up_cur   ; 5.678 ;       ;       ; 5.678 ;
+; up[0]        ; req_up_max   ; 6.387 ;       ;       ; 6.387 ;
+; up[0]        ; req_up_out   ; 5.970 ;       ;       ; 5.970 ;
+; up[1]        ; req_current  ; 5.822 ;       ;       ; 5.822 ;
+; up[1]        ; req_down_min ; 6.404 ; 5.958 ; 5.958 ; 6.404 ;
+; up[1]        ; req_up_cur   ; 5.543 ;       ;       ; 5.543 ;
+; up[1]        ; req_up_max   ; 6.207 ; 6.399 ; 6.399 ; 6.207 ;
+; up[1]        ; req_up_out   ; 5.893 ;       ;       ; 5.893 ;
+; up[2]        ; req_current  ; 6.124 ;       ;       ; 6.124 ;
+; up[2]        ; req_down_min ; 6.652 ; 6.407 ; 6.407 ; 6.652 ;
+; up[2]        ; req_up_cur   ; 5.845 ;       ;       ; 5.845 ;
+; up[2]        ; req_up_max   ; 6.455 ; 6.365 ; 6.365 ; 6.455 ;
+; up[2]        ; req_up_out   ; 6.054 ;       ;       ; 6.054 ;
+; up[3]        ; req_current  ; 5.859 ;       ;       ; 5.859 ;
+; up[3]        ; req_down_min ; 6.573 ; 6.449 ; 6.449 ; 6.573 ;
+; up[3]        ; req_up_cur   ; 5.580 ;       ;       ; 5.580 ;
+; up[3]        ; req_up_max   ; 6.376 ; 6.270 ; 6.270 ; 6.376 ;
+; up[3]        ; req_up_out   ; 5.909 ;       ;       ; 5.909 ;
+; up[4]        ; req_current  ; 5.823 ;       ;       ; 5.823 ;
+; up[4]        ; req_down_min ; 6.554 ; 6.373 ; 6.373 ; 6.554 ;
+; up[4]        ; req_up_cur   ; 5.544 ;       ;       ; 5.544 ;
+; up[4]        ; req_up_max   ; 6.357 ; 6.139 ; 6.139 ; 6.357 ;
+; up[4]        ; req_up_out   ; 5.779 ;       ;       ; 5.779 ;
+; up[5]        ; req_current  ; 5.967 ;       ;       ; 5.967 ;
+; up[5]        ; req_down_min ; 6.382 ; 6.218 ; 6.218 ; 6.382 ;
+; up[5]        ; req_up_cur   ; 5.688 ;       ;       ; 5.688 ;
+; up[5]        ; req_up_max   ; 6.228 ; 6.228 ; 6.228 ; 6.228 ;
+; up[5]        ; req_up_out   ; 5.563 ;       ;       ; 5.563 ;
++--------------+--------------+-------+-------+-------+-------+
+
+
++-------------------------------------------------------------+
+; Minimum Propagation Delay                                   ;
++--------------+--------------+-------+-------+-------+-------+
+; Input Port   ; Output Port  ; RR    ; RF    ; FR    ; FF    ;
++--------------+--------------+-------+-------+-------+-------+
+; close_bt     ; close_button ; 4.566 ;       ;       ; 4.566 ;
+; cur_floor[0] ; req_current  ; 6.308 ;       ;       ; 6.308 ;
+; cur_floor[0] ; req_down_cur ; 6.202 ;       ;       ; 6.202 ;
+; cur_floor[0] ; req_down_in  ; 6.338 ;       ;       ; 6.338 ;
+; cur_floor[0] ; req_down_min ; 6.029 ; 6.459 ; 6.459 ; 6.029 ;
+; cur_floor[0] ; req_down_out ; 6.028 ;       ;       ; 6.028 ;
+; cur_floor[0] ; req_up_cur   ; 6.029 ;       ;       ; 6.029 ;
+; cur_floor[0] ; req_up_in    ;       ; 6.091 ; 6.091 ;       ;
+; cur_floor[0] ; req_up_max   ; 6.055 ;       ;       ; 6.055 ;
+; cur_floor[0] ; req_up_out   ;       ; 6.166 ; 6.166 ;       ;
+; cur_floor[1] ; req_current  ; 6.074 ;       ;       ; 6.074 ;
+; cur_floor[1] ; req_down_cur ; 5.968 ;       ;       ; 5.968 ;
+; cur_floor[1] ; req_down_in  ; 6.064 ;       ;       ; 6.064 ;
+; cur_floor[1] ; req_down_min ; 6.137 ; 6.182 ; 6.182 ; 6.137 ;
+; cur_floor[1] ; req_down_out ; 5.857 ;       ;       ; 5.857 ;
+; cur_floor[1] ; req_up_cur   ; 5.795 ;       ;       ; 5.795 ;
+; cur_floor[1] ; req_up_in    ;       ; 5.734 ; 5.734 ;       ;
+; cur_floor[1] ; req_up_max   ; 5.940 ;       ;       ; 5.940 ;
+; cur_floor[1] ; req_up_out   ;       ; 5.994 ; 5.994 ;       ;
+; cur_floor[2] ; req_current  ; 5.966 ;       ;       ; 5.966 ;
+; cur_floor[2] ; req_down_cur ; 5.875 ;       ;       ; 5.875 ;
+; cur_floor[2] ; req_down_in  ; 6.075 ;       ;       ; 6.075 ;
+; cur_floor[2] ; req_down_min ; 6.282 ; 6.320 ; 6.320 ; 6.282 ;
+; cur_floor[2] ; req_down_out ; 5.823 ;       ;       ; 5.823 ;
+; cur_floor[2] ; req_up_cur   ; 5.694 ;       ;       ; 5.694 ;
+; cur_floor[2] ; req_up_in    ;       ; 5.686 ; 5.686 ;       ;
+; cur_floor[2] ; req_up_max   ; 6.085 ; 6.408 ; 6.408 ; 6.085 ;
+; cur_floor[2] ; req_up_out   ;       ; 6.147 ; 6.147 ;       ;
+; cur_floor[3] ; req_current  ; 6.067 ;       ;       ; 6.067 ;
+; cur_floor[3] ; req_down_cur ; 5.897 ;       ;       ; 5.897 ;
+; cur_floor[3] ; req_down_in  ; 6.015 ;       ;       ; 6.015 ;
+; cur_floor[3] ; req_down_min ; 6.170 ; 6.339 ; 6.339 ; 6.170 ;
+; cur_floor[3] ; req_down_out ; 5.810 ;       ;       ; 5.810 ;
+; cur_floor[3] ; req_up_cur   ; 5.795 ;       ;       ; 5.795 ;
+; cur_floor[3] ; req_up_in    ;       ; 5.662 ; 5.662 ;       ;
+; cur_floor[3] ; req_up_max   ; 5.973 ; 6.231 ; 6.231 ; 5.973 ;
+; cur_floor[3] ; req_up_out   ;       ; 5.952 ; 5.952 ;       ;
+; cur_floor[4] ; req_current  ; 6.163 ;       ;       ; 6.163 ;
+; cur_floor[4] ; req_down_cur ; 5.891 ;       ;       ; 5.891 ;
+; cur_floor[4] ; req_down_in  ; 6.074 ;       ;       ; 6.074 ;
+; cur_floor[4] ; req_down_min ; 6.089 ; 6.478 ; 6.478 ; 6.089 ;
+; cur_floor[4] ; req_down_out ; 5.789 ;       ;       ; 5.789 ;
+; cur_floor[4] ; req_up_cur   ; 5.902 ;       ;       ; 5.902 ;
+; cur_floor[4] ; req_up_in    ;       ; 5.634 ; 5.634 ;       ;
+; cur_floor[4] ; req_up_max   ; 5.878 ; 6.370 ; 6.370 ; 5.878 ;
+; cur_floor[4] ; req_up_out   ;       ; 5.933 ; 5.933 ;       ;
+; cur_floor[5] ; req_current  ; 3.780 ;       ;       ; 3.780 ;
+; cur_floor[5] ; req_down_cur ; 3.515 ;       ;       ; 3.515 ;
+; cur_floor[5] ; req_down_in  ; 3.494 ;       ;       ; 3.494 ;
+; cur_floor[5] ; req_down_min ; 3.985 ; 3.985 ; 3.985 ; 3.985 ;
+; cur_floor[5] ; req_down_out ; 3.426 ;       ;       ; 3.426 ;
+; cur_floor[5] ; req_up_cur   ; 3.501 ;       ;       ; 3.501 ;
+; cur_floor[5] ; req_up_in    ;       ; 3.375 ; 3.375 ;       ;
+; cur_floor[5] ; req_up_max   ; 3.331 ;       ;       ; 3.331 ;
+; cur_floor[5] ; req_up_out   ;       ; 3.559 ; 3.559 ;       ;
+; down[0]      ; req_current  ; 5.941 ;       ;       ; 5.941 ;
+; down[0]      ; req_down_cur ; 5.923 ;       ;       ; 5.923 ;
+; down[0]      ; req_down_min ; 6.570 ; 6.152 ; 6.152 ; 6.570 ;
+; down[0]      ; req_down_out ;       ; 5.756 ; 5.756 ;       ;
+; down[0]      ; req_up_max   ; 6.373 ;       ;       ; 6.373 ;
+; down[1]      ; req_current  ; 6.000 ;       ;       ; 6.000 ;
+; down[1]      ; req_down_cur ; 5.982 ;       ;       ; 5.982 ;
+; down[1]      ; req_down_min ; 6.537 ; 6.091 ; 6.091 ; 6.537 ;
+; down[1]      ; req_down_out ;       ; 5.757 ; 5.757 ;       ;
+; down[1]      ; req_up_max   ; 6.340 ; 6.335 ; 6.335 ; 6.340 ;
+; down[2]      ; req_current  ; 6.040 ;       ;       ; 6.040 ;
+; down[2]      ; req_down_cur ; 6.022 ;       ;       ; 6.022 ;
+; down[2]      ; req_down_min ; 6.664 ; 6.419 ; 6.419 ; 6.664 ;
+; down[2]      ; req_down_out ;       ; 5.813 ; 5.813 ;       ;
+; down[2]      ; req_up_max   ; 6.467 ; 6.377 ; 6.377 ; 6.467 ;
+; down[3]      ; req_current  ; 5.931 ;       ;       ; 5.931 ;
+; down[3]      ; req_down_cur ; 5.913 ;       ;       ; 5.913 ;
+; down[3]      ; req_down_min ; 6.577 ; 6.453 ; 6.453 ; 6.577 ;
+; down[3]      ; req_down_out ;       ; 5.679 ; 5.679 ;       ;
+; down[3]      ; req_up_max   ; 6.133 ; 6.133 ; 6.133 ; 6.133 ;
+; down[4]      ; req_current  ; 6.312 ;       ;       ; 6.312 ;
+; down[4]      ; req_down_cur ; 6.294 ;       ;       ; 6.294 ;
+; down[4]      ; req_down_min ; 6.798 ; 6.617 ; 6.617 ; 6.798 ;
+; down[4]      ; req_down_out ;       ; 5.828 ; 5.828 ;       ;
+; down[4]      ; req_up_max   ; 6.332 ; 6.332 ; 6.332 ; 6.332 ;
+; down[5]      ; req_current  ; 6.138 ;       ;       ; 6.138 ;
+; down[5]      ; req_down_cur ; 6.120 ;       ;       ; 6.120 ;
+; down[5]      ; req_down_min ; 6.343 ; 6.179 ; 6.179 ; 6.343 ;
+; down[5]      ; req_down_out ;       ; 5.513 ; 5.513 ;       ;
+; down[5]      ; req_up_max   ; 6.146 ; 5.904 ; 5.904 ; 6.146 ;
+; open_bt      ; open_button  ; 5.040 ;       ;       ; 5.040 ;
+; open_bt      ; req_current  ; 5.888 ;       ;       ; 5.888 ;
+; req_in[0]    ; req_current  ; 6.412 ;       ;       ; 6.412 ;
+; req_in[0]    ; req_down_cur ; 6.066 ;       ;       ; 6.066 ;
+; req_in[0]    ; req_down_in  ; 5.924 ; 6.291 ; 6.291 ; 5.924 ;
+; req_in[0]    ; req_down_min ; 6.934 ; 6.516 ; 6.516 ; 6.934 ;
+; req_in[0]    ; req_up_cur   ; 6.133 ;       ;       ; 6.133 ;
+; req_in[0]    ; req_up_in    ; 6.074 ;       ;       ; 6.074 ;
+; req_in[0]    ; req_up_max   ; 6.737 ;       ;       ; 6.737 ;
+; req_in[1]    ; req_current  ; 6.260 ;       ;       ; 6.260 ;
+; req_in[1]    ; req_down_cur ; 5.914 ;       ;       ; 5.914 ;
+; req_in[1]    ; req_down_in  ; 5.777 ; 6.094 ; 6.094 ; 5.777 ;
+; req_in[1]    ; req_down_min ; 6.599 ; 6.153 ; 6.153 ; 6.599 ;
+; req_in[1]    ; req_up_cur   ; 5.981 ;       ;       ; 5.981 ;
+; req_in[1]    ; req_up_in    ; 5.812 ;       ;       ; 5.812 ;
+; req_in[1]    ; req_up_max   ; 6.402 ; 6.554 ; 6.554 ; 6.402 ;
+; req_in[2]    ; req_current  ; 6.635 ;       ;       ; 6.635 ;
+; req_in[2]    ; req_down_cur ; 6.292 ;       ;       ; 6.292 ;
+; req_in[2]    ; req_down_in  ; 6.166 ; 6.123 ; 6.123 ; 6.166 ;
+; req_in[2]    ; req_down_min ; 6.726 ; 6.481 ; 6.481 ; 6.726 ;
+; req_in[2]    ; req_up_cur   ; 6.356 ;       ;       ; 6.356 ;
+; req_in[2]    ; req_up_in    ; 6.147 ;       ;       ; 6.147 ;
+; req_in[2]    ; req_up_max   ; 6.529 ; 6.439 ; 6.439 ; 6.529 ;
+; req_in[3]    ; req_current  ; 6.384 ;       ;       ; 6.384 ;
+; req_in[3]    ; req_down_cur ; 6.041 ;       ;       ; 6.041 ;
+; req_in[3]    ; req_down_in  ; 5.905 ; 6.071 ; 6.071 ; 5.905 ;
+; req_in[3]    ; req_down_min ; 6.689 ; 6.565 ; 6.565 ; 6.689 ;
+; req_in[3]    ; req_up_cur   ; 6.105 ;       ;       ; 6.105 ;
+; req_in[3]    ; req_up_in    ; 5.832 ;       ;       ; 5.832 ;
+; req_in[3]    ; req_up_max   ; 6.438 ; 6.386 ; 6.386 ; 6.438 ;
+; req_in[4]    ; req_current  ; 6.172 ;       ;       ; 6.172 ;
+; req_in[4]    ; req_down_cur ; 5.830 ;       ;       ; 5.830 ;
+; req_in[4]    ; req_down_in  ; 5.510 ; 6.050 ; 6.050 ; 5.510 ;
+; req_in[4]    ; req_down_min ; 6.754 ; 6.573 ; 6.573 ; 6.754 ;
+; req_in[4]    ; req_up_cur   ; 5.893 ;       ;       ; 5.893 ;
+; req_in[4]    ; req_up_in    ; 5.705 ;       ;       ; 5.705 ;
+; req_in[4]    ; req_up_max   ; 6.162 ; 6.162 ; 6.162 ; 6.162 ;
+; req_in[5]    ; req_current  ; 4.172 ;       ;       ; 4.172 ;
+; req_in[5]    ; req_down_cur ; 3.830 ;       ;       ; 3.830 ;
+; req_in[5]    ; req_down_in  ; 3.382 ; 3.805 ; 3.805 ; 3.382 ;
+; req_in[5]    ; req_down_min ; 4.330 ; 4.166 ; 4.166 ; 4.330 ;
+; req_in[5]    ; req_up_cur   ; 3.893 ;       ;       ; 3.893 ;
+; req_in[5]    ; req_up_in    ; 3.452 ;       ;       ; 3.452 ;
+; req_in[5]    ; req_up_max   ; 4.133 ; 3.866 ; 3.866 ; 4.133 ;
+; up[0]        ; req_current  ; 5.957 ;       ;       ; 5.957 ;
+; up[0]        ; req_down_min ; 6.584 ; 6.166 ; 6.166 ; 6.584 ;
+; up[0]        ; req_up_cur   ; 5.678 ;       ;       ; 5.678 ;
+; up[0]        ; req_up_max   ; 6.387 ;       ;       ; 6.387 ;
+; up[0]        ; req_up_out   ; 5.970 ;       ;       ; 5.970 ;
+; up[1]        ; req_current  ; 5.822 ;       ;       ; 5.822 ;
+; up[1]        ; req_down_min ; 6.404 ; 5.958 ; 5.958 ; 6.404 ;
+; up[1]        ; req_up_cur   ; 5.543 ;       ;       ; 5.543 ;
+; up[1]        ; req_up_max   ; 6.207 ; 6.399 ; 6.399 ; 6.207 ;
+; up[1]        ; req_up_out   ; 5.893 ;       ;       ; 5.893 ;
+; up[2]        ; req_current  ; 6.124 ;       ;       ; 6.124 ;
+; up[2]        ; req_down_min ; 6.652 ; 6.407 ; 6.407 ; 6.652 ;
+; up[2]        ; req_up_cur   ; 5.845 ;       ;       ; 5.845 ;
+; up[2]        ; req_up_max   ; 6.455 ; 6.365 ; 6.365 ; 6.455 ;
+; up[2]        ; req_up_out   ; 6.054 ;       ;       ; 6.054 ;
+; up[3]        ; req_current  ; 5.859 ;       ;       ; 5.859 ;
+; up[3]        ; req_down_min ; 6.573 ; 6.449 ; 6.449 ; 6.573 ;
+; up[3]        ; req_up_cur   ; 5.580 ;       ;       ; 5.580 ;
+; up[3]        ; req_up_max   ; 6.168 ; 6.168 ; 6.168 ; 6.168 ;
+; up[3]        ; req_up_out   ; 5.909 ;       ;       ; 5.909 ;
+; up[4]        ; req_current  ; 5.823 ;       ;       ; 5.823 ;
+; up[4]        ; req_down_min ; 6.554 ; 6.373 ; 6.373 ; 6.554 ;
+; up[4]        ; req_up_cur   ; 5.544 ;       ;       ; 5.544 ;
+; up[4]        ; req_up_max   ; 6.092 ; 6.092 ; 6.092 ; 6.092 ;
+; up[4]        ; req_up_out   ; 5.779 ;       ;       ; 5.779 ;
+; up[5]        ; req_current  ; 5.967 ;       ;       ; 5.967 ;
+; up[5]        ; req_down_min ; 6.382 ; 6.218 ; 6.218 ; 6.382 ;
+; up[5]        ; req_up_cur   ; 5.688 ;       ;       ; 5.688 ;
+; up[5]        ; req_up_max   ; 6.185 ; 5.701 ; 5.701 ; 6.185 ;
+; up[5]        ; req_up_out   ; 5.563 ;       ;       ; 5.563 ;
++--------------+--------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; N/A                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++-----------------------------------------------------------------+
+; Progagation Delay                                               ;
++--------------+--------------+--------+--------+--------+--------+
+; Input Port   ; Output Port  ; RR     ; RF     ; FR     ; FF     ;
++--------------+--------------+--------+--------+--------+--------+
+; close_bt     ; close_button ; 7.920  ;        ;        ; 7.920  ;
+; cur_floor[0] ; req_current  ; 12.328 ;        ;        ; 12.328 ;
+; cur_floor[0] ; req_down_cur ; 12.007 ;        ;        ; 12.007 ;
+; cur_floor[0] ; req_down_in  ; 11.825 ;        ;        ; 11.825 ;
+; cur_floor[0] ; req_down_min ; 13.072 ; 13.072 ; 13.072 ; 13.072 ;
+; cur_floor[0] ; req_down_out ; 11.134 ;        ;        ; 11.134 ;
+; cur_floor[0] ; req_up_cur   ; 11.695 ;        ;        ; 11.695 ;
+; cur_floor[0] ; req_up_in    ;        ; 11.311 ; 11.311 ;        ;
+; cur_floor[0] ; req_up_max   ; 12.493 ;        ;        ; 12.493 ;
+; cur_floor[0] ; req_up_out   ;        ; 11.375 ; 11.375 ;        ;
+; cur_floor[1] ; req_current  ; 11.834 ;        ;        ; 11.834 ;
+; cur_floor[1] ; req_down_cur ; 11.510 ;        ;        ; 11.510 ;
+; cur_floor[1] ; req_down_in  ; 11.258 ;        ;        ; 11.258 ;
+; cur_floor[1] ; req_down_min ; 12.719 ; 12.719 ; 12.719 ; 12.719 ;
+; cur_floor[1] ; req_down_out ; 10.768 ;        ;        ; 10.768 ;
+; cur_floor[1] ; req_up_cur   ; 11.201 ;        ;        ; 11.201 ;
+; cur_floor[1] ; req_up_in    ;        ; 10.533 ; 10.533 ;        ;
+; cur_floor[1] ; req_up_max   ; 11.367 ;        ;        ; 11.367 ;
+; cur_floor[1] ; req_up_out   ;        ; 11.007 ; 11.007 ;        ;
+; cur_floor[2] ; req_current  ; 11.596 ;        ;        ; 11.596 ;
+; cur_floor[2] ; req_down_cur ; 10.937 ;        ;        ; 10.937 ;
+; cur_floor[2] ; req_down_in  ; 11.267 ;        ;        ; 11.267 ;
+; cur_floor[2] ; req_down_min ; 12.685 ; 12.685 ; 12.685 ; 12.685 ;
+; cur_floor[2] ; req_down_out ; 10.694 ;        ;        ; 10.694 ;
+; cur_floor[2] ; req_up_cur   ; 10.963 ;        ;        ; 10.963 ;
+; cur_floor[2] ; req_up_in    ;        ; 10.396 ; 10.396 ;        ;
+; cur_floor[2] ; req_up_max   ; 12.022 ; 12.022 ; 12.022 ; 12.022 ;
+; cur_floor[2] ; req_up_out   ;        ; 11.336 ; 11.336 ;        ;
+; cur_floor[3] ; req_current  ; 11.660 ;        ;        ; 11.660 ;
+; cur_floor[3] ; req_down_cur ; 11.173 ;        ;        ; 11.173 ;
+; cur_floor[3] ; req_down_in  ; 11.130 ;        ;        ; 11.130 ;
+; cur_floor[3] ; req_down_min ; 12.644 ; 12.644 ; 12.644 ; 12.644 ;
+; cur_floor[3] ; req_down_out ; 10.670 ;        ;        ; 10.670 ;
+; cur_floor[3] ; req_up_cur   ; 11.027 ;        ;        ; 11.027 ;
+; cur_floor[3] ; req_up_in    ;        ; 10.355 ; 10.355 ;        ;
+; cur_floor[3] ; req_up_max   ; 11.530 ; 11.530 ; 11.530 ; 11.530 ;
+; cur_floor[3] ; req_up_out   ;        ; 10.915 ; 10.915 ;        ;
+; cur_floor[4] ; req_current  ; 11.653 ;        ;        ; 11.653 ;
+; cur_floor[4] ; req_down_cur ; 11.453 ;        ;        ; 11.453 ;
+; cur_floor[4] ; req_down_in  ; 11.284 ;        ;        ; 11.284 ;
+; cur_floor[4] ; req_down_min ; 12.260 ; 12.260 ; 12.260 ; 12.260 ;
+; cur_floor[4] ; req_down_out ; 10.621 ;        ;        ; 10.621 ;
+; cur_floor[4] ; req_up_cur   ; 11.020 ;        ;        ; 11.020 ;
+; cur_floor[4] ; req_up_in    ;        ; 10.318 ; 10.318 ;        ;
+; cur_floor[4] ; req_up_max   ; 11.861 ; 11.861 ; 11.861 ; 11.861 ;
+; cur_floor[4] ; req_up_out   ;        ; 10.867 ; 10.867 ;        ;
+; cur_floor[5] ; req_current  ; 7.842  ;        ;        ; 7.842  ;
+; cur_floor[5] ; req_down_cur ; 7.827  ;        ;        ; 7.827  ;
+; cur_floor[5] ; req_down_in  ; 6.829  ;        ;        ; 6.829  ;
+; cur_floor[5] ; req_down_min ; 7.940  ; 7.938  ; 7.938  ; 7.940  ;
+; cur_floor[5] ; req_down_out ; 6.660  ;        ;        ; 6.660  ;
+; cur_floor[5] ; req_up_cur   ; 7.087  ;        ;        ; 7.087  ;
+; cur_floor[5] ; req_up_in    ;        ; 6.559  ; 6.559  ;        ;
+; cur_floor[5] ; req_up_max   ; 7.486  ;        ;        ; 7.486  ;
+; cur_floor[5] ; req_up_out   ;        ; 6.876  ; 6.876  ;        ;
+; down[0]      ; req_current  ; 10.986 ;        ;        ; 10.986 ;
+; down[0]      ; req_down_cur ; 10.971 ;        ;        ; 10.971 ;
+; down[0]      ; req_down_min ; 12.363 ; 11.448 ; 11.448 ; 12.363 ;
+; down[0]      ; req_down_out ;        ; 10.564 ; 10.564 ;        ;
+; down[0]      ; req_up_max   ; 11.909 ;        ;        ; 11.909 ;
+; down[1]      ; req_current  ; 11.120 ;        ;        ; 11.120 ;
+; down[1]      ; req_down_cur ; 11.105 ;        ;        ; 11.105 ;
+; down[1]      ; req_down_min ; 12.314 ; 11.324 ; 11.324 ; 12.314 ;
+; down[1]      ; req_down_out ;        ; 10.559 ; 10.559 ;        ;
+; down[1]      ; req_up_max   ; 11.860 ; 11.893 ; 11.893 ; 11.860 ;
+; down[2]      ; req_current  ; 11.203 ;        ;        ; 11.203 ;
+; down[2]      ; req_down_cur ; 11.188 ;        ;        ; 11.188 ;
+; down[2]      ; req_down_min ; 12.612 ; 12.041 ; 12.041 ; 12.612 ;
+; down[2]      ; req_down_out ;        ; 10.713 ; 10.713 ;        ;
+; down[2]      ; req_up_max   ; 12.158 ; 11.992 ; 11.992 ; 12.158 ;
+; down[3]      ; req_current  ; 10.925 ;        ;        ; 10.925 ;
+; down[3]      ; req_down_cur ; 10.910 ;        ;        ; 10.910 ;
+; down[3]      ; req_down_min ; 12.326 ; 12.037 ; 12.037 ; 12.326 ;
+; down[3]      ; req_down_out ;        ; 10.388 ; 10.388 ;        ;
+; down[3]      ; req_up_max   ; 11.872 ; 11.709 ; 11.709 ; 11.872 ;
+; down[4]      ; req_current  ; 11.806 ;        ;        ; 11.806 ;
+; down[4]      ; req_down_cur ; 11.791 ;        ;        ; 11.791 ;
+; down[4]      ; req_down_min ; 12.831 ; 12.435 ; 12.435 ; 12.831 ;
+; down[4]      ; req_down_out ;        ; 10.748 ; 10.748 ;        ;
+; down[4]      ; req_up_max   ; 12.377 ; 11.939 ; 11.939 ; 12.377 ;
+; down[5]      ; req_current  ; 11.368 ;        ;        ; 11.368 ;
+; down[5]      ; req_down_cur ; 11.353 ;        ;        ; 11.353 ;
+; down[5]      ; req_down_min ; 11.777 ; 11.414 ; 11.414 ; 11.777 ;
+; down[5]      ; req_down_out ;        ; 9.929  ; 9.929  ;        ;
+; down[5]      ; req_up_max   ; 11.991 ; 11.991 ; 11.991 ; 11.991 ;
+; open_bt      ; open_button  ; 8.885  ;        ;        ; 8.885  ;
+; open_bt      ; req_current  ; 10.702 ;        ;        ; 10.702 ;
+; req_in[0]    ; req_current  ; 12.032 ;        ;        ; 12.032 ;
+; req_in[0]    ; req_down_cur ; 11.221 ;        ;        ; 11.221 ;
+; req_in[0]    ; req_down_in  ; 10.882 ; 11.758 ; 11.758 ; 10.882 ;
+; req_in[0]    ; req_down_min ; 13.136 ; 12.221 ; 12.221 ; 13.136 ;
+; req_in[0]    ; req_up_cur   ; 11.399 ;        ;        ; 11.399 ;
+; req_in[0]    ; req_up_in    ; 11.267 ;        ;        ; 11.267 ;
+; req_in[0]    ; req_up_max   ; 12.682 ;        ;        ; 12.682 ;
+; req_in[1]    ; req_current  ; 11.721 ;        ;        ; 11.721 ;
+; req_in[1]    ; req_down_cur ; 10.910 ;        ;        ; 10.910 ;
+; req_in[1]    ; req_down_in  ; 10.544 ; 11.321 ; 11.321 ; 10.544 ;
+; req_in[1]    ; req_down_min ; 12.403 ; 11.413 ; 11.413 ; 12.403 ;
+; req_in[1]    ; req_up_cur   ; 11.088 ;        ;        ; 11.088 ;
+; req_in[1]    ; req_up_in    ; 10.689 ;        ;        ; 10.689 ;
+; req_in[1]    ; req_up_max   ; 11.949 ; 12.320 ; 12.320 ; 11.949 ;
+; req_in[2]    ; req_current  ; 12.562 ;        ;        ; 12.562 ;
+; req_in[2]    ; req_down_cur ; 11.758 ;        ;        ; 11.758 ;
+; req_in[2]    ; req_down_in  ; 11.433 ; 11.389 ; 11.389 ; 11.433 ;
+; req_in[2]    ; req_down_min ; 12.670 ; 12.099 ; 12.099 ; 12.670 ;
+; req_in[2]    ; req_up_cur   ; 11.929 ;        ;        ; 11.929 ;
+; req_in[2]    ; req_up_in    ; 11.429 ;        ;        ; 11.429 ;
+; req_in[2]    ; req_up_max   ; 12.216 ; 12.050 ; 12.050 ; 12.216 ;
+; req_in[3]    ; req_current  ; 12.014 ;        ;        ; 12.014 ;
+; req_in[3]    ; req_down_cur ; 11.210 ;        ;        ; 11.210 ;
+; req_in[3]    ; req_down_in  ; 10.878 ; 11.304 ; 11.304 ; 10.878 ;
+; req_in[3]    ; req_down_min ; 12.581 ; 12.292 ; 12.292 ; 12.581 ;
+; req_in[3]    ; req_up_cur   ; 11.381 ;        ;        ; 11.381 ;
+; req_in[3]    ; req_up_in    ; 10.779 ;        ;        ; 10.779 ;
+; req_in[3]    ; req_up_max   ; 12.127 ; 12.123 ; 12.123 ; 12.127 ;
+; req_in[4]    ; req_current  ; 11.531 ;        ;        ; 11.531 ;
+; req_in[4]    ; req_down_cur ; 10.727 ;        ;        ; 10.727 ;
+; req_in[4]    ; req_down_in  ; 9.941  ; 11.271 ; 11.271 ; 9.941  ;
+; req_in[4]    ; req_down_min ; 12.777 ; 12.381 ; 12.381 ; 12.777 ;
+; req_in[4]    ; req_up_cur   ; 10.898 ;        ;        ; 10.898 ;
+; req_in[4]    ; req_up_in    ; 10.496 ;        ;        ; 10.496 ;
+; req_in[4]    ; req_up_max   ; 12.323 ; 11.885 ; 11.885 ; 12.323 ;
+; req_in[5]    ; req_current  ; 8.383  ;        ;        ; 8.383  ;
+; req_in[5]    ; req_down_cur ; 7.579  ;        ;        ; 7.579  ;
+; req_in[5]    ; req_down_in  ; 6.488  ; 7.463  ; 7.463  ; 6.488  ;
+; req_in[5]    ; req_down_min ; 8.625  ; 8.262  ; 8.262  ; 8.625  ;
+; req_in[5]    ; req_up_cur   ; 7.750  ;        ;        ; 7.750  ;
+; req_in[5]    ; req_up_in    ; 6.673  ;        ;        ; 6.673  ;
+; req_in[5]    ; req_up_max   ; 8.782  ; 8.782  ; 8.782  ; 8.782  ;
+; up[0]        ; req_current  ; 11.052 ;        ;        ; 11.052 ;
+; up[0]        ; req_down_min ; 12.393 ; 11.478 ; 11.478 ; 12.393 ;
+; up[0]        ; req_up_cur   ; 10.419 ;        ;        ; 10.419 ;
+; up[0]        ; req_up_max   ; 11.939 ;        ;        ; 11.939 ;
+; up[0]        ; req_up_out   ; 11.000 ;        ;        ; 11.000 ;
+; up[1]        ; req_current  ; 10.692 ;        ;        ; 10.692 ;
+; up[1]        ; req_down_min ; 11.985 ; 10.995 ; 10.995 ; 11.985 ;
+; up[1]        ; req_up_cur   ; 10.059 ;        ;        ; 10.059 ;
+; up[1]        ; req_up_max   ; 11.531 ; 11.962 ; 11.962 ; 11.531 ;
+; up[1]        ; req_up_out   ; 10.798 ;        ;        ; 10.798 ;
+; up[2]        ; req_current  ; 11.411 ;        ;        ; 11.411 ;
+; up[2]        ; req_down_min ; 12.543 ; 11.972 ; 11.972 ; 12.543 ;
+; up[2]        ; req_up_cur   ; 10.778 ;        ;        ; 10.778 ;
+; up[2]        ; req_up_max   ; 12.089 ; 11.923 ; 11.923 ; 12.089 ;
+; up[2]        ; req_up_out   ; 11.154 ;        ;        ; 11.154 ;
+; up[3]        ; req_current  ; 10.835 ;        ;        ; 10.835 ;
+; up[3]        ; req_down_min ; 12.338 ; 12.049 ; 12.049 ; 12.338 ;
+; up[3]        ; req_up_cur   ; 10.202 ;        ;        ; 10.202 ;
+; up[3]        ; req_up_max   ; 11.884 ; 11.721 ; 11.721 ; 11.884 ;
+; up[3]        ; req_up_out   ; 10.849 ;        ;        ; 10.849 ;
+; up[4]        ; req_current  ; 10.746 ;        ;        ; 10.746 ;
+; up[4]        ; req_down_min ; 12.316 ; 11.920 ; 11.920 ; 12.316 ;
+; up[4]        ; req_up_cur   ; 10.113 ;        ;        ; 10.113 ;
+; up[4]        ; req_up_max   ; 11.862 ; 11.424 ; 11.424 ; 11.862 ;
+; up[4]        ; req_up_out   ; 10.558 ;        ;        ; 10.558 ;
+; up[5]        ; req_current  ; 11.065 ;        ;        ; 11.065 ;
+; up[5]        ; req_down_min ; 11.866 ; 11.503 ; 11.503 ; 11.866 ;
+; up[5]        ; req_up_cur   ; 10.432 ;        ;        ; 10.432 ;
+; up[5]        ; req_up_max   ; 11.517 ; 11.517 ; 11.517 ; 11.517 ;
+; up[5]        ; req_up_out   ; 9.955  ;        ;        ; 9.955  ;
++--------------+--------------+--------+--------+--------+--------+
+
+
++-------------------------------------------------------------+
+; Minimum Progagation Delay                                   ;
++--------------+--------------+-------+-------+-------+-------+
+; Input Port   ; Output Port  ; RR    ; RF    ; FR    ; FF    ;
++--------------+--------------+-------+-------+-------+-------+
+; close_bt     ; close_button ; 4.566 ;       ;       ; 4.566 ;
+; cur_floor[0] ; req_current  ; 6.308 ;       ;       ; 6.308 ;
+; cur_floor[0] ; req_down_cur ; 6.202 ;       ;       ; 6.202 ;
+; cur_floor[0] ; req_down_in  ; 6.338 ;       ;       ; 6.338 ;
+; cur_floor[0] ; req_down_min ; 6.029 ; 6.459 ; 6.459 ; 6.029 ;
+; cur_floor[0] ; req_down_out ; 6.028 ;       ;       ; 6.028 ;
+; cur_floor[0] ; req_up_cur   ; 6.029 ;       ;       ; 6.029 ;
+; cur_floor[0] ; req_up_in    ;       ; 6.091 ; 6.091 ;       ;
+; cur_floor[0] ; req_up_max   ; 6.055 ;       ;       ; 6.055 ;
+; cur_floor[0] ; req_up_out   ;       ; 6.166 ; 6.166 ;       ;
+; cur_floor[1] ; req_current  ; 6.074 ;       ;       ; 6.074 ;
+; cur_floor[1] ; req_down_cur ; 5.968 ;       ;       ; 5.968 ;
+; cur_floor[1] ; req_down_in  ; 6.064 ;       ;       ; 6.064 ;
+; cur_floor[1] ; req_down_min ; 6.137 ; 6.182 ; 6.182 ; 6.137 ;
+; cur_floor[1] ; req_down_out ; 5.857 ;       ;       ; 5.857 ;
+; cur_floor[1] ; req_up_cur   ; 5.795 ;       ;       ; 5.795 ;
+; cur_floor[1] ; req_up_in    ;       ; 5.734 ; 5.734 ;       ;
+; cur_floor[1] ; req_up_max   ; 5.940 ;       ;       ; 5.940 ;
+; cur_floor[1] ; req_up_out   ;       ; 5.994 ; 5.994 ;       ;
+; cur_floor[2] ; req_current  ; 5.966 ;       ;       ; 5.966 ;
+; cur_floor[2] ; req_down_cur ; 5.875 ;       ;       ; 5.875 ;
+; cur_floor[2] ; req_down_in  ; 6.075 ;       ;       ; 6.075 ;
+; cur_floor[2] ; req_down_min ; 6.282 ; 6.320 ; 6.320 ; 6.282 ;
+; cur_floor[2] ; req_down_out ; 5.823 ;       ;       ; 5.823 ;
+; cur_floor[2] ; req_up_cur   ; 5.694 ;       ;       ; 5.694 ;
+; cur_floor[2] ; req_up_in    ;       ; 5.686 ; 5.686 ;       ;
+; cur_floor[2] ; req_up_max   ; 6.085 ; 6.408 ; 6.408 ; 6.085 ;
+; cur_floor[2] ; req_up_out   ;       ; 6.147 ; 6.147 ;       ;
+; cur_floor[3] ; req_current  ; 6.067 ;       ;       ; 6.067 ;
+; cur_floor[3] ; req_down_cur ; 5.897 ;       ;       ; 5.897 ;
+; cur_floor[3] ; req_down_in  ; 6.015 ;       ;       ; 6.015 ;
+; cur_floor[3] ; req_down_min ; 6.170 ; 6.339 ; 6.339 ; 6.170 ;
+; cur_floor[3] ; req_down_out ; 5.810 ;       ;       ; 5.810 ;
+; cur_floor[3] ; req_up_cur   ; 5.795 ;       ;       ; 5.795 ;
+; cur_floor[3] ; req_up_in    ;       ; 5.662 ; 5.662 ;       ;
+; cur_floor[3] ; req_up_max   ; 5.973 ; 6.231 ; 6.231 ; 5.973 ;
+; cur_floor[3] ; req_up_out   ;       ; 5.952 ; 5.952 ;       ;
+; cur_floor[4] ; req_current  ; 6.163 ;       ;       ; 6.163 ;
+; cur_floor[4] ; req_down_cur ; 5.891 ;       ;       ; 5.891 ;
+; cur_floor[4] ; req_down_in  ; 6.074 ;       ;       ; 6.074 ;
+; cur_floor[4] ; req_down_min ; 6.089 ; 6.478 ; 6.478 ; 6.089 ;
+; cur_floor[4] ; req_down_out ; 5.789 ;       ;       ; 5.789 ;
+; cur_floor[4] ; req_up_cur   ; 5.902 ;       ;       ; 5.902 ;
+; cur_floor[4] ; req_up_in    ;       ; 5.634 ; 5.634 ;       ;
+; cur_floor[4] ; req_up_max   ; 5.878 ; 6.370 ; 6.370 ; 5.878 ;
+; cur_floor[4] ; req_up_out   ;       ; 5.933 ; 5.933 ;       ;
+; cur_floor[5] ; req_current  ; 3.780 ;       ;       ; 3.780 ;
+; cur_floor[5] ; req_down_cur ; 3.515 ;       ;       ; 3.515 ;
+; cur_floor[5] ; req_down_in  ; 3.494 ;       ;       ; 3.494 ;
+; cur_floor[5] ; req_down_min ; 3.985 ; 3.985 ; 3.985 ; 3.985 ;
+; cur_floor[5] ; req_down_out ; 3.426 ;       ;       ; 3.426 ;
+; cur_floor[5] ; req_up_cur   ; 3.501 ;       ;       ; 3.501 ;
+; cur_floor[5] ; req_up_in    ;       ; 3.375 ; 3.375 ;       ;
+; cur_floor[5] ; req_up_max   ; 3.331 ;       ;       ; 3.331 ;
+; cur_floor[5] ; req_up_out   ;       ; 3.559 ; 3.559 ;       ;
+; down[0]      ; req_current  ; 5.941 ;       ;       ; 5.941 ;
+; down[0]      ; req_down_cur ; 5.923 ;       ;       ; 5.923 ;
+; down[0]      ; req_down_min ; 6.570 ; 6.152 ; 6.152 ; 6.570 ;
+; down[0]      ; req_down_out ;       ; 5.756 ; 5.756 ;       ;
+; down[0]      ; req_up_max   ; 6.373 ;       ;       ; 6.373 ;
+; down[1]      ; req_current  ; 6.000 ;       ;       ; 6.000 ;
+; down[1]      ; req_down_cur ; 5.982 ;       ;       ; 5.982 ;
+; down[1]      ; req_down_min ; 6.537 ; 6.091 ; 6.091 ; 6.537 ;
+; down[1]      ; req_down_out ;       ; 5.757 ; 5.757 ;       ;
+; down[1]      ; req_up_max   ; 6.340 ; 6.335 ; 6.335 ; 6.340 ;
+; down[2]      ; req_current  ; 6.040 ;       ;       ; 6.040 ;
+; down[2]      ; req_down_cur ; 6.022 ;       ;       ; 6.022 ;
+; down[2]      ; req_down_min ; 6.664 ; 6.419 ; 6.419 ; 6.664 ;
+; down[2]      ; req_down_out ;       ; 5.813 ; 5.813 ;       ;
+; down[2]      ; req_up_max   ; 6.467 ; 6.377 ; 6.377 ; 6.467 ;
+; down[3]      ; req_current  ; 5.931 ;       ;       ; 5.931 ;
+; down[3]      ; req_down_cur ; 5.913 ;       ;       ; 5.913 ;
+; down[3]      ; req_down_min ; 6.577 ; 6.453 ; 6.453 ; 6.577 ;
+; down[3]      ; req_down_out ;       ; 5.679 ; 5.679 ;       ;
+; down[3]      ; req_up_max   ; 6.133 ; 6.133 ; 6.133 ; 6.133 ;
+; down[4]      ; req_current  ; 6.312 ;       ;       ; 6.312 ;
+; down[4]      ; req_down_cur ; 6.294 ;       ;       ; 6.294 ;
+; down[4]      ; req_down_min ; 6.798 ; 6.617 ; 6.617 ; 6.798 ;
+; down[4]      ; req_down_out ;       ; 5.828 ; 5.828 ;       ;
+; down[4]      ; req_up_max   ; 6.332 ; 6.332 ; 6.332 ; 6.332 ;
+; down[5]      ; req_current  ; 6.138 ;       ;       ; 6.138 ;
+; down[5]      ; req_down_cur ; 6.120 ;       ;       ; 6.120 ;
+; down[5]      ; req_down_min ; 6.343 ; 6.179 ; 6.179 ; 6.343 ;
+; down[5]      ; req_down_out ;       ; 5.513 ; 5.513 ;       ;
+; down[5]      ; req_up_max   ; 6.146 ; 5.904 ; 5.904 ; 6.146 ;
+; open_bt      ; open_button  ; 5.040 ;       ;       ; 5.040 ;
+; open_bt      ; req_current  ; 5.888 ;       ;       ; 5.888 ;
+; req_in[0]    ; req_current  ; 6.412 ;       ;       ; 6.412 ;
+; req_in[0]    ; req_down_cur ; 6.066 ;       ;       ; 6.066 ;
+; req_in[0]    ; req_down_in  ; 5.924 ; 6.291 ; 6.291 ; 5.924 ;
+; req_in[0]    ; req_down_min ; 6.934 ; 6.516 ; 6.516 ; 6.934 ;
+; req_in[0]    ; req_up_cur   ; 6.133 ;       ;       ; 6.133 ;
+; req_in[0]    ; req_up_in    ; 6.074 ;       ;       ; 6.074 ;
+; req_in[0]    ; req_up_max   ; 6.737 ;       ;       ; 6.737 ;
+; req_in[1]    ; req_current  ; 6.260 ;       ;       ; 6.260 ;
+; req_in[1]    ; req_down_cur ; 5.914 ;       ;       ; 5.914 ;
+; req_in[1]    ; req_down_in  ; 5.777 ; 6.094 ; 6.094 ; 5.777 ;
+; req_in[1]    ; req_down_min ; 6.599 ; 6.153 ; 6.153 ; 6.599 ;
+; req_in[1]    ; req_up_cur   ; 5.981 ;       ;       ; 5.981 ;
+; req_in[1]    ; req_up_in    ; 5.812 ;       ;       ; 5.812 ;
+; req_in[1]    ; req_up_max   ; 6.402 ; 6.554 ; 6.554 ; 6.402 ;
+; req_in[2]    ; req_current  ; 6.635 ;       ;       ; 6.635 ;
+; req_in[2]    ; req_down_cur ; 6.292 ;       ;       ; 6.292 ;
+; req_in[2]    ; req_down_in  ; 6.166 ; 6.123 ; 6.123 ; 6.166 ;
+; req_in[2]    ; req_down_min ; 6.726 ; 6.481 ; 6.481 ; 6.726 ;
+; req_in[2]    ; req_up_cur   ; 6.356 ;       ;       ; 6.356 ;
+; req_in[2]    ; req_up_in    ; 6.147 ;       ;       ; 6.147 ;
+; req_in[2]    ; req_up_max   ; 6.529 ; 6.439 ; 6.439 ; 6.529 ;
+; req_in[3]    ; req_current  ; 6.384 ;       ;       ; 6.384 ;
+; req_in[3]    ; req_down_cur ; 6.041 ;       ;       ; 6.041 ;
+; req_in[3]    ; req_down_in  ; 5.905 ; 6.071 ; 6.071 ; 5.905 ;
+; req_in[3]    ; req_down_min ; 6.689 ; 6.565 ; 6.565 ; 6.689 ;
+; req_in[3]    ; req_up_cur   ; 6.105 ;       ;       ; 6.105 ;
+; req_in[3]    ; req_up_in    ; 5.832 ;       ;       ; 5.832 ;
+; req_in[3]    ; req_up_max   ; 6.438 ; 6.386 ; 6.386 ; 6.438 ;
+; req_in[4]    ; req_current  ; 6.172 ;       ;       ; 6.172 ;
+; req_in[4]    ; req_down_cur ; 5.830 ;       ;       ; 5.830 ;
+; req_in[4]    ; req_down_in  ; 5.510 ; 6.050 ; 6.050 ; 5.510 ;
+; req_in[4]    ; req_down_min ; 6.754 ; 6.573 ; 6.573 ; 6.754 ;
+; req_in[4]    ; req_up_cur   ; 5.893 ;       ;       ; 5.893 ;
+; req_in[4]    ; req_up_in    ; 5.705 ;       ;       ; 5.705 ;
+; req_in[4]    ; req_up_max   ; 6.162 ; 6.162 ; 6.162 ; 6.162 ;
+; req_in[5]    ; req_current  ; 4.172 ;       ;       ; 4.172 ;
+; req_in[5]    ; req_down_cur ; 3.830 ;       ;       ; 3.830 ;
+; req_in[5]    ; req_down_in  ; 3.382 ; 3.805 ; 3.805 ; 3.382 ;
+; req_in[5]    ; req_down_min ; 4.330 ; 4.166 ; 4.166 ; 4.330 ;
+; req_in[5]    ; req_up_cur   ; 3.893 ;       ;       ; 3.893 ;
+; req_in[5]    ; req_up_in    ; 3.452 ;       ;       ; 3.452 ;
+; req_in[5]    ; req_up_max   ; 4.133 ; 3.866 ; 3.866 ; 4.133 ;
+; up[0]        ; req_current  ; 5.957 ;       ;       ; 5.957 ;
+; up[0]        ; req_down_min ; 6.584 ; 6.166 ; 6.166 ; 6.584 ;
+; up[0]        ; req_up_cur   ; 5.678 ;       ;       ; 5.678 ;
+; up[0]        ; req_up_max   ; 6.387 ;       ;       ; 6.387 ;
+; up[0]        ; req_up_out   ; 5.970 ;       ;       ; 5.970 ;
+; up[1]        ; req_current  ; 5.822 ;       ;       ; 5.822 ;
+; up[1]        ; req_down_min ; 6.404 ; 5.958 ; 5.958 ; 6.404 ;
+; up[1]        ; req_up_cur   ; 5.543 ;       ;       ; 5.543 ;
+; up[1]        ; req_up_max   ; 6.207 ; 6.399 ; 6.399 ; 6.207 ;
+; up[1]        ; req_up_out   ; 5.893 ;       ;       ; 5.893 ;
+; up[2]        ; req_current  ; 6.124 ;       ;       ; 6.124 ;
+; up[2]        ; req_down_min ; 6.652 ; 6.407 ; 6.407 ; 6.652 ;
+; up[2]        ; req_up_cur   ; 5.845 ;       ;       ; 5.845 ;
+; up[2]        ; req_up_max   ; 6.455 ; 6.365 ; 6.365 ; 6.455 ;
+; up[2]        ; req_up_out   ; 6.054 ;       ;       ; 6.054 ;
+; up[3]        ; req_current  ; 5.859 ;       ;       ; 5.859 ;
+; up[3]        ; req_down_min ; 6.573 ; 6.449 ; 6.449 ; 6.573 ;
+; up[3]        ; req_up_cur   ; 5.580 ;       ;       ; 5.580 ;
+; up[3]        ; req_up_max   ; 6.168 ; 6.168 ; 6.168 ; 6.168 ;
+; up[3]        ; req_up_out   ; 5.909 ;       ;       ; 5.909 ;
+; up[4]        ; req_current  ; 5.823 ;       ;       ; 5.823 ;
+; up[4]        ; req_down_min ; 6.554 ; 6.373 ; 6.373 ; 6.554 ;
+; up[4]        ; req_up_cur   ; 5.544 ;       ;       ; 5.544 ;
+; up[4]        ; req_up_max   ; 6.092 ; 6.092 ; 6.092 ; 6.092 ;
+; up[4]        ; req_up_out   ; 5.779 ;       ;       ; 5.779 ;
+; up[5]        ; req_current  ; 5.967 ;       ;       ; 5.967 ;
+; up[5]        ; req_down_min ; 6.382 ; 6.218 ; 6.218 ; 6.382 ;
+; up[5]        ; req_up_cur   ; 5.688 ;       ;       ; 5.688 ;
+; up[5]        ; req_up_max   ; 6.185 ; 5.701 ; 5.701 ; 6.185 ;
+; up[5]        ; req_up_out   ; 5.563 ;       ;       ; 5.563 ;
++--------------+--------------+-------+-------+-------+-------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 26    ; 26   ;
+; Unconstrained Input Port Paths  ; 159   ; 159  ;
+; Unconstrained Output Ports      ; 11    ; 11   ;
+; Unconstrained Output Port Paths ; 159   ; 159  ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Mon Jun 11 19:43:34 2018
+Info: Command: quartus_sta ProessingRequest -c ProessingRequest
+Info: qsta_default_script.tcl version: #1
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'ProessingRequest.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info (332159): No clocks to report
+Info: Analyzing Slow Model
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info: Analyzing Fast Model
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 398 megabytes
+    Info: Processing ended: Mon Jun 11 19:43:34 2018
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
+
+
